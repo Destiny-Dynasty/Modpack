@@ -311,4 +311,24 @@ Los directorios “Destiny Dynasty Español” y “Destiny Dynasty GUI” son r
 
 ## Preparar una versión futura
 
-El script [`tools/New-PackManifest.ps1`](tools/New-PackManifest.ps1) genera el manifiesto SHA-256 y los archivos individuales de Release. Actualiza la versión y el contenido, regenera el manifiesto y publica un nuevo tag. En versiones posteriores el launcher no vuelve a descargar archivos cuyo hash no cambió.
+El script [`tools/New-PackManifest.ps1`](tools/New-PackManifest.ps1) genera el manifiesto SHA-256 y los archivos individuales de Release. Ejemplo para la siguiente versión:
+
+```powershell
+$version = '1.4.8'
+$releaseBase = "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-$version"
+.\tools\New-PackManifest.ps1 `
+  -PackId destiny `
+  -PackDirectory 'D:\Build\DestinyPack' `
+  -Version $version `
+  -ReleaseBaseUrl $releaseBase `
+  -OutputDirectory "D:\Build\release-$version"
+```
+
+El directorio de salida debe estar vacío. El generador crea `release-assets/` y `manifests/destiny.json`; los nombres de assets se normalizan para coincidir con GitHub. Flujo de publicación:
+
+1. Revisa los cambios de mods y sus licencias; solicita permiso antes de volver a alojar cualquier archivo que lo requiera y actualiza este inventario.
+2. Crea una Release en borrador con el tag `destiny-<versión>` y sube todos los archivos de `release-assets/` como assets individuales, no como un ZIP monolítico.
+3. Comprueba que cada asset esté cargado y que su tamaño y SHA-256 coincidan con el manifiesto. Publica la Release.
+4. Copia el manifiesto generado a `manifests/destiny.json` y súbelo a `main` **después** de publicar la Release; así el launcher nunca ve URLs a assets que aún no son públicos.
+
+El launcher compara tamaño y SHA-256, por lo que en una actualización descarga solo los archivos nuevos o modificados, aunque el manifiesto enumere el pack completo.
