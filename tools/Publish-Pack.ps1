@@ -35,6 +35,30 @@ if ($dirty) { throw 'Hay cambios locales en el repositorio. Confírmalos o guár
 
 $auth = & gh auth status 2>&1
 if ($LASTEXITCODE -ne 0) { throw "GitHub CLI no está autenticado: $($auth -join ' ')" }
+$userInfoJson = & gh api user --jq '{login, id}'
+if ($LASTEXITCODE -ne 0 -or -not $userInfoJson) { throw 'No se pudo obtener la identidad pública de GitHub.' }
+$userInfo = $userInfoJson | ConvertFrom-Json
+$identity = "$($userInfo.id)+$($userInfo.login)@users.noreply.github.com"
+
+& git -C $repoRoot fetch origin main
+if ($LASTEXITCODE -ne 0) { throw 'No se pudo sincronizar la referencia remota main.' }
+$ahead = [int]((& git -C $repoRoot rev-list --count origin/main..HEAD).Trim())
+$behind = [int]((& git -C $repoRoot rev-list --count HEAD..origin/main).Trim())
+if ($behind -gt 0) { throw 'origin/main tiene commits nuevos. Actualiza este checkout y vuelve a ejecutar la publicación.' }
+if ($ahead -gt 0) {
+    $lastMessage = (& git -C $repoRoot log -1 --format=%s).Trim()
+    $localManifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+    if ($ahead -eq 1 -and $lastMessage -eq "release: $PackId $Version" -and $localManifest.version -eq $Version) {
+        $published = & gh release view "$PackId-$Version" --repo $repo --json isDraft
+        if ($LASTEXITCODE -eq 0 -and -not (($published | ConvertFrom-Json).isDraft)) {
+            & git -C $repoRoot push origin main
+            if ($LASTEXITCODE -ne 0) { throw 'El manifiesto del release está confirmado localmente, pero el push de recuperación volvió a fallar.' }
+            Write-Host "Push de recuperación completado para $PackId $Version."
+            return
+        }
+    }
+    throw 'Este checkout tiene commits locales pendientes que no pertenecen a esta publicación. Sincronízalo antes de continuar.'
+}
 
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) "destiny-pack-$PackId-$Version-$([guid]::NewGuid().ToString('N'))"
 $outputRoot = Join-Path $tempRoot 'generated'
@@ -53,7 +77,7 @@ try {
     if ($SourceOverridesPath) {
         $resolvedOverrides = (Resolve-Path -LiteralPath $SourceOverridesPath).Path
         $generatorArgs += @('-SourceOverridesPath', $resolvedOverrides)
-        $externalSourceCount = (@(Get-Content -LiteralPath $resolvedOverrides -Raw | ConvertFrom-Json).Count)
+        $externalSourceCount = (Get-Content -LiteralPath $resolvedOverrides -Raw | ConvertFrom-Json).PSObject.Properties.Count
     }
     & $generator @generatorArgs
     if ($LASTEXITCODE -ne 0) { throw 'Falló la generación del manifiesto.' }
@@ -134,7 +158,7 @@ try {
     Copy-Item -LiteralPath $generatedManifestPath -Destination $manifestPath -Force
     & git -C $repoRoot add -- "manifests/$PackId.json"
     if ($LASTEXITCODE -ne 0) { throw 'Release publicada, pero no se pudo preparar el manifiesto para Git.' }
-    & git -C $repoRoot commit -m "release: $PackId $Version"
+    & git -C $repoRoot -c user.name=$userInfo.login -c user.email=$identity commit -m "release: $PackId $Version"
     if ($LASTEXITCODE -ne 0) { throw 'Release publicada, pero el commit del manifiesto falló. Revisa el repositorio local.' }
     & git -C $repoRoot push origin main
     if ($LASTEXITCODE -ne 0) { throw "Release publicada y commit local creado, pero no se pudo subir main. Reintenta: git -C `"$repoRoot`" push origin main" }
