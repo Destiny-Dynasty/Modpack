@@ -19,6 +19,9 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$OutputDirectory,
 
+    [string]$PreviousManifestPath,
+    [string]$SourceOverridesPath,
+
     [string]$MinecraftVersion = '1.20.1',
     [string]$FabricLoaderVersion = '0.16.9'
 )
@@ -32,6 +35,29 @@ $assetRoot = Join-Path $outRoot $assetDirectoryName
 $manifestRoot = Join-Path $outRoot 'manifests'
 $manifestPath = Join-Path $manifestRoot "$PackId.json"
 $fileBaseUrl = if ($repositoryMode) { $RepositoryFilesBaseUrl.TrimEnd('/') } else { $ReleaseBaseUrl.TrimEnd('/') }
+
+$previousFiles = @{}
+if ($PreviousManifestPath) {
+    $previousManifest = Get-Content -LiteralPath $PreviousManifestPath -Raw | ConvertFrom-Json
+    foreach ($previousFile in $previousManifest.files) {
+        $previousFiles[$previousFile.path.Replace('\', '/')] = $previousFile
+    }
+}
+
+$sourceOverrides = @{}
+if ($SourceOverridesPath) {
+    $overrides = Get-Content -LiteralPath $SourceOverridesPath -Raw | ConvertFrom-Json
+    foreach ($property in $overrides.PSObject.Properties) {
+        $relative = $property.Name.Replace('\', '/')
+        $overrideUrl = if ($property.Value -is [string]) { $property.Value } else { $property.Value.url }
+        $overrideUri = $null
+        if (-not [System.Uri]::TryCreate($overrideUrl, [System.UriKind]::Absolute, [ref]$overrideUri) -or
+            $overrideUri.Scheme -ne [System.Uri]::UriSchemeHttps) {
+            throw "Source override for '$relative' must be an absolute HTTPS URL."
+        }
+        $sourceOverrides[$relative] = [ordered]@{ url = $overrideUrl; source = if ($property.Value -is [string]) { 'official' } else { $property.Value.source } }
+    }
+}
 
 function ConvertTo-GitHubReleaseAssetName([string]$Name) {
     # GitHub normalizes some release-asset filenames (diacritics, spaces,
@@ -71,6 +97,34 @@ foreach ($rootName in $managedRoots) {
     foreach ($sourceFile in Get-ChildItem -LiteralPath $sourceRoot -File -Recurse | Sort-Object FullName) {
         $relative = [System.IO.Path]::GetRelativePath($packRoot, $sourceFile.FullName).Replace('\', '/')
         $fileHash = (Get-FileHash -LiteralPath $sourceFile.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+
+        if ($sourceOverrides.ContainsKey($relative)) {
+            $entry = [ordered]@{
+                path = $relative
+                url = $sourceOverrides[$relative].url
+                size = [long]$sourceFile.Length
+                sha256 = $fileHash
+            }
+            if ($sourceOverrides[$relative].source) { $entry.source = $sourceOverrides[$relative].source }
+            $files.Add($entry)
+            continue
+        }
+
+        if ($previousFiles.ContainsKey($relative) -and
+            [long]$previousFiles[$relative].size -eq [long]$sourceFile.Length -and
+            $previousFiles[$relative].sha256 -eq $fileHash -and
+            $previousFiles[$relative].url) {
+            $entry = [ordered]@{
+                path = $relative
+                url = $previousFiles[$relative].url
+                size = [long]$sourceFile.Length
+                sha256 = $fileHash
+            }
+            if ($previousFiles[$relative].source) { $entry.source = $previousFiles[$relative].source }
+            $files.Add($entry)
+            continue
+        }
+
         if ($repositoryMode -and $sourceFile.Length -ge 100MB) {
             throw "GitHub blocks regular repository files at 100 MiB; use Release mode or another file host for '$relative'."
         }
@@ -117,3 +171,5 @@ $json = $manifest | ConvertTo-Json -Depth 8
 Write-Host "Manifest: $manifestPath"
 Write-Host "Payload directory: $assetRoot"
 Write-Host "Managed files: $($files.Count)"
+Write-Host "New release assets: $((Get-ChildItem -LiteralPath $assetRoot -File).Count)"
+Write-Host "External-source files: $($sourceOverrides.Count)"

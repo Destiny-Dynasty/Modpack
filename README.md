@@ -309,26 +309,32 @@ Cada nombre enlaza a su página oficial de CurseForge o Modrinth. Se indican la 
 
 Los directorios “Destiny Dynasty Español” y “Destiny Dynasty GUI” son recursos propios del pack. El manifiesto no incluye el `options.txt` raíz del jugador ni datos personales.
 
-## Preparar una versión futura
+## Publicar una versión
 
-El script [`tools/New-PackManifest.ps1`](tools/New-PackManifest.ps1) genera el manifiesto SHA-256 y los archivos individuales de Release. Ejemplo para la siguiente versión:
+La publicación normal se hace con un solo comando usando [`tools/Publish-Pack.ps1`](tools/Publish-Pack.ps1). Necesitas Git, GitHub CLI (`gh`) autenticado con permiso de escritura y un checkout limpio de este repositorio en `main`.
+
+1. Exporta o prepara en una carpeta el contenido final del pack (`mods/`, `config/`, `resourcepacks/`, etc.).
+2. Aumenta la versión y ejecuta:
 
 ```powershell
-$version = '1.4.8'
-$releaseBase = "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-$version"
-.\tools\New-PackManifest.ps1 `
-  -PackId destiny `
+.\tools\Publish-Pack.ps1 `
   -PackDirectory 'D:\Build\DestinyPack' `
-  -Version $version `
-  -ReleaseBaseUrl $releaseBase `
-  -OutputDirectory "D:\Build\release-$version"
+  -Version '1.4.8'
 ```
 
-El directorio de salida debe estar vacío. El generador crea `release-assets/` y `manifests/destiny.json`; los nombres de assets se normalizan para coincidir con GitHub. Flujo de publicación:
+Para un archivo que debe descargarse de la fuente oficial, crea un JSON privado/local con su ruta relativa y URL HTTPS fijada a esa versión, y pásalo con `-SourceOverridesPath`. Ejemplo:
 
-1. Revisa los cambios de mods y sus licencias; solicita permiso antes de volver a alojar cualquier archivo que lo requiera y actualiza este inventario.
-2. Crea una Release en borrador con el tag `destiny-<versión>` y sube todos los archivos de `release-assets/` como assets individuales, no como un ZIP monolítico.
-3. Comprueba que cada asset esté cargado y que su tamaño y SHA-256 coincidan con el manifiesto. Publica la Release.
-4. Copia el manifiesto generado a `manifests/destiny.json` y súbelo a `main` **después** de publicar la Release; así el launcher nunca ve URLs a assets que aún no son públicos.
+```json
+{
+  "mods/Example-1.2.3.jar": {
+    "url": "https://cdn.modrinth.com/data/PROJECT/version/Example-1.2.3.jar",
+    "source": "Modrinth"
+  }
+}
+```
 
-El launcher compara tamaño y SHA-256, por lo que en una actualización descarga solo los archivos nuevos o modificados, aunque el manifiesto enumere el pack completo.
+No pongas claves de API ni tokens en ese archivo ni en el manifiesto. Las descargas externas también quedan protegidas por el tamaño y SHA-256 del archivo local: si el enlace sirve otra versión, el launcher la rechazará.
+
+El script compara hashes con el manifiesto anterior, reutiliza las URLs de archivos idénticos y prepara assets solo para los archivos nuevos/modificados que no tengan fuente externa. Muestra el resumen y los JAR/ZIP que se alojarán; exige escribir `PUBLICAR`, crea/actualiza una Release en borrador, verifica cantidad y tamaños de assets, la publica y solo entonces confirma y sube el manifiesto. Si algo falla, el manifiesto estable no apunta a una Release incompleta. Un JAR nuevo debe revisarse manualmente en cuanto a licencia/permisos: la automatización no puede conceder derechos ni determinar licencias por sí sola.
+
+`tools/New-PackManifest.ps1` sigue disponible para generar manifiestos manualmente o para el feed Raw. Acepta `-PreviousManifestPath` para reutilizar URLs de archivos sin cambios y `-SourceOverridesPath` para omitir binarios alojados externamente.
