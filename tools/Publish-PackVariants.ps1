@@ -39,7 +39,8 @@ foreach ($asset in $build.assets) {
     $previous = @($existing.assets | Where-Object {$_.name -eq $asset.name})
     if ($previous.Count) {
         # Resume an interrupted draft only after checking GitHub's own digest.
-        $releaseAssets = & gh api "repos/$($build.repository)/releases/tags/$($build.tag)" --jq '.assets' | ConvertFrom-Json
+        $info = & gh release view $build.tag --repo $build.repository --json apiUrl | ConvertFrom-Json
+        $releaseAssets = & gh api $info.apiUrl --jq '.assets' | ConvertFrom-Json
         $match = @($releaseAssets | Where-Object {$_.name -eq $asset.name -and $_.digest -eq "sha256:$($asset.sha256)"})
         if ($match.Count -ne 1) { throw 'An existing draft asset differs; use a new version instead of clobbering it.' }
     } else {
@@ -47,7 +48,8 @@ foreach ($asset in $build.assets) {
         if ($LASTEXITCODE) { throw 'Upload interrupted. The release remains a draft; rerun with the same prepared directory.' }
     }
 }
-$assets = @(& gh api "repos/$($build.repository)/releases/tags/$($build.tag)" --jq '.assets' | ConvertFrom-Json | Where-Object { $null -ne $_ })
+$info = & gh release view $build.tag --repo $build.repository --json apiUrl | ConvertFrom-Json
+$assets = @(& gh api $info.apiUrl --jq '.assets' | ConvertFrom-Json | Where-Object { $null -ne $_ })
 if ($LASTEXITCODE -or @($assets).Count -ne @($build.assets).Count) { throw 'Release asset verification failed.' }
 foreach ($asset in $build.assets) {
     if (@($assets | Where-Object {$_.name -eq $asset.name -and $_.size -eq $asset.size -and $_.digest -eq "sha256:$($asset.sha256)"}).Count -ne 1) { throw 'GitHub asset digest mismatch.' }

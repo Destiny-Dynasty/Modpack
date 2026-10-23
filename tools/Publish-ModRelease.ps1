@@ -21,12 +21,15 @@ if ($LASTEXITCODE -or (& git -C $repo rev-parse HEAD) -ne (& git -C $repo rev-pa
 $tag="mod-$ModId-$Version"
 $assetName="$ModId-$($Version.Replace('+','-')).jar"
 $hash=(Get-FileHash -LiteralPath $jar.FullName).Hash.ToLowerInvariant()
-$existing = & gh api "repos/$repository/releases/tags/$tag" 2>$null
+$existing = & gh release view $tag --repo $repository --json apiUrl 2>$null
 if ($LASTEXITCODE) {
     & gh release create $tag --repo $repository --target main --draft --title "$ModId $Version" --notes "JAR compilado de $ModId $Version. Código fuente mantenido en su repositorio privado."
     if ($LASTEXITCODE) { throw 'Could not create distribution release.' }
-    $release = & gh api "repos/$repository/releases/tags/$tag" | ConvertFrom-Json
-} else { $release = $existing | ConvertFrom-Json }
+    $existing = & gh release view $tag --repo $repository --json apiUrl
+}
+$releaseInfo = $existing | ConvertFrom-Json
+$release = & gh api $releaseInfo.apiUrl | ConvertFrom-Json
+if ($LASTEXITCODE) { throw 'Could not inspect release draft.' }
 $asset=@($release.assets | Where-Object {$_.name -eq $assetName -and $_.digest -eq "sha256:$hash" -and $_.size -eq $jar.Length})
 if ($release.assets.Count -gt 1 -or ($release.assets.Count -eq 1 -and $asset.Count -ne 1)) { throw 'Existing release has different assets. Use a new version; do not overwrite published JARs.' }
 if ($asset.Count -eq 0) {
@@ -42,7 +45,7 @@ if ($asset.Count -eq 0) {
         if (Test-Path -LiteralPath $upload) { Remove-Item -LiteralPath $upload }
         Remove-Item -LiteralPath $temporary
     }
-    $release = & gh api "repos/$repository/releases/tags/$tag" | ConvertFrom-Json
+    $release = & gh api $releaseInfo.apiUrl | ConvertFrom-Json
     $asset=@($release.assets | Where-Object {$_.name -eq $assetName -and $_.digest -eq "sha256:$hash" -and $_.size -eq $jar.Length})
     if ($asset.Count -ne 1) { throw 'GitHub did not confirm the compiled JAR checksum.' }
 }
