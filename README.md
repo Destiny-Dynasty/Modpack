@@ -27,7 +27,7 @@ No se publica código privado ni se necesitan credenciales de GitHub en el launc
 
 Los mods propios se publican en **Mod-Releases**, cada uno con su canal. Realms usa
 `latest` en `channels/destiny-realms.json` y se comprueba al pulsar Jugar. Se comparte
-la misma build de Realms entre las tres variantes. Combat y Kingdoms conservan sus
+la misma build de Realms entre las tres variantes. Combat 0.1.1+ef20.14.17 se comparte entre las tres variantes y queda fijado a su release. Kingdoms conserva sus
 builds específicas por variante y están fijados a sus assets publicados.
 
 Staff mantiene Axiom **6.0.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,

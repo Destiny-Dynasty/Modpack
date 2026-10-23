@@ -48,7 +48,7 @@ Realms está configurado como override del pack normal y se hereda también en L
 ```
 
 El canal es obligatorio para distinguir cada mod en este repositorio compartido.
-No utilizar `/releases/latest` del repositorio completo. La primera build de Realms
+No utilizar `/releases/latest` del repositorio completo. Combat 0.1.1+ef20.14.17 usa la ruta estable mods/destiny-combat.jar y una URL fija, compartida entre las tres variantes; no usa latest. Realms tiene como snapshot actual la release 0.1.1. La primera build de Realms
 es la importada del pack normal existente, sin recompilar el HEAD privado.
 
 El compositor genera schemaVersion 2 y una instantánea con URL, tamaño y SHA-256.
