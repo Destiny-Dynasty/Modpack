@@ -25,9 +25,9 @@ de releases anteriores. Tamaño y SHA-256 verifican cada descarga. Las versiones
 previas al primer lanzamiento oficial se retiraron después de consolidar sus archivos.
 No se publica código privado ni se necesitan credenciales de GitHub en el launcher.
 
-Los mods propios se publican en **Mod-Releases**, cada uno con su canal. Realms usa
-`latest` en `channels/destiny-realms.json` y se comprueba al pulsar Jugar. Se comparte
-la misma build de Realms entre las tres variantes. Combat 0.1.1+ef20.14.17 se comparte entre las tres variantes y queda fijado a su release. Kingdoms conserva sus
+Los mods propios se publican en **Mod-Releases**, cada uno con su canal. Destiny Dynasty usa
+`latest` en `channels/destiny-dynasty.json` y se comprueba al pulsar Jugar. Se comparte
+la misma build de Destiny Dynasty entre las tres variantes. Combat 0.1.1+ef20.14.17 se comparte entre las tres variantes y queda fijado a su release. Kingdoms conserva sus
 builds específicas por variante y están fijados a sus assets publicados.
 
 Staff mantiene Axiom **6.0.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,

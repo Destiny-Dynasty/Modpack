@@ -32,23 +32,23 @@ duplicados. Las pruebas no sustituyen una partida real para comprobar compatibil
 
 ## Mods latest
 
-Realms está configurado como override del pack normal y se hereda también en Lite y Staff:
+Destiny Dynasty está configurado como override del pack normal y se hereda también en Lite y Staff:
 
 ```json
 {
-  "path": "mods/destiny-realms.jar",
+  "path": "mods/destiny-dynasty.jar",
   "modId": "destinydynasty",
   "github": {
     "repository": "Destiny-Dynasty/Mod-Releases",
     "release": "latest",
-    "channel": "destiny-realms",
-    "asset": "destiny-realms-*.jar"
+    "channel": "destiny-dynasty",
+    "asset": "destiny-dynasty-*.jar"
   }
 }
 ```
 
 El canal es obligatorio para distinguir cada mod en este repositorio compartido.
-No utilizar `/releases/latest` del repositorio completo. Combat 0.1.1+ef20.14.17 usa la ruta estable mods/destiny-combat.jar y una URL fija, compartida entre las tres variantes; no usa latest. Realms tiene como snapshot actual la release 0.1.1. La primera build de Realms
+No utilizar `/releases/latest` del repositorio completo. Combat 0.1.1+ef20.14.17 usa la ruta estable mods/destiny-combat.jar y una URL fija, compartida entre las tres variantes; no usa latest. Destiny Dynasty tiene como snapshot actual la release 0.1.1. La primera build de Destiny Dynasty
 es la importada del pack normal existente, sin recompilar el HEAD privado.
 
 El compositor genera schemaVersion 2 y una instantánea con URL, tamaño y SHA-256.
@@ -66,7 +66,7 @@ resuelve la URL y el checksum al publicar; no se comprueba latest durante el jue
 Desde un checkout limpio y actualizado de **Mod-Releases**:
 
 ```powershell
-./tools/Publish-ModRelease.ps1 -RepositoryRoot . -ModId destiny-realms `
+./tools/Publish-ModRelease.ps1 -RepositoryRoot . -ModId destiny-dynasty `
   -Version 0.1.1 -JarPath 'E:/destiny-realms/build/libs/destinydynasty-0.1.1.jar'
 ```
 
@@ -91,7 +91,7 @@ Desde un checkout actualizado de Modpack, PowerShell 7 y GitHub CLI:
 ```
 
 Omitir PackDirectory para regenerar usando el catálogo existente. Al cambiar el
-catálogo conservar la ruta estable de Realms para que su override siga aplicando;
+catálogo conservar la ruta estable de Destiny Dynasty para que su override siga aplicando;
 no volver a añadir otra copia del mismo mod con el nombre versionado del JAR.
 Los assets se publican y verifican antes de actualizar los manifiestos. Las URLs de
 archivos sin cambios se reutilizan, por lo que una release usada por un manifiesto

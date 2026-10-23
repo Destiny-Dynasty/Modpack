@@ -248,15 +248,15 @@
       "sha256": "c754844e27d7ac8eb62503ca5091541d4179636d55af30182d052c04b15429c2"
     },
     {
-      "path": "mods/destiny-realms.jar",
+      "path": "mods/destiny-dynasty.jar",
       "github": {
         "repository": "Destiny-Dynasty/Mod-Releases",
-        "asset": "destiny-realms-*.jar",
+        "asset": "destiny-dynasty-*.jar",
         "release": "latest",
-        "channel": "destiny-realms"
+        "channel": "destiny-dynasty"
       },
       "modId": "destinydynasty",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-realms-0.1.1/destiny-realms-0.1.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-dynasty-0.1.1/destiny-dynasty-0.1.1.jar",
       "size": 24179474,
       "sha256": "ed6303391b50bdbe6841e82987a773516438d5cd047f05a0c7e758b97da49dba"
     },

@@ -5,12 +5,12 @@
   "include": [],
   "overrides": [
     {
-      "path": "mods/destiny-realms.jar",
+      "path": "mods/destiny-dynasty.jar",
       "github": {
         "repository": "Destiny-Dynasty/Mod-Releases",
-        "asset": "destiny-realms-*.jar",
+        "asset": "destiny-dynasty-*.jar",
         "release": "latest",
-        "channel": "destiny-realms"
+        "channel": "destiny-dynasty"
       },
       "modId": "destinydynasty"
     }
