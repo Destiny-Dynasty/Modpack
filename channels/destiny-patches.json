@@ -1,14 +1,14 @@
 {
-  "tag_name": "mod-destiny-patches-0.1.0",
-  "draft": false,
   "assets": [
     {
       "name": "destiny-patches-0.1.0.jar",
-      "size": 22179,
-      "browser_download_url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/untagged-e0299a7f54cb833522c3/destiny-patches-0.1.0.jar",
-      "digest": "sha256:cb550b2b16ae9798d475ca50e1136c904c8e121c16495a080d121bdc5d2287d1"
+      "digest": "sha256:cb550b2b16ae9798d475ca50e1136c904c8e121c16495a080d121bdc5d2287d1",
+      "browser_download_url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/mod-destiny-patches-0.1.0/destiny-patches-0.1.0.jar",
+      "size": 22179
     }
   ],
-  "published_at": "2026-10-23T14:14:40.7821628Z",
-  "prerelease": false
+  "tag_name": "mod-destiny-patches-0.1.0",
+  "published_at": "2026-10-23T14:18:20.9347905Z",
+  "prerelease": false,
+  "draft": false
 }
