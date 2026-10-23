@@ -1,18 +1,11 @@
 {
   "extends": "destiny",
-  "version": "1.0.0",
   "overrides": [
     {
       "path": "mods/destinycombat-0.1.0+ef20.14.17.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destinycombat-0.1.0%2Bef20.14.17.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-combat-lite-0.1.0-ef20.14.17/destiny-combat-lite-0.1.0-ef20.14.17.jar",
       "size": 3603379,
       "sha256": "337cc191b282bb4acf052e97bcf82c4b3496dd24a89b8a383162c2559310e898"
-    },
-    {
-      "path": "mods/destinydynasty-0.1.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destinydynasty-0.1.0.jar",
-      "size": 23374987,
-      "sha256": "571936a396a2f835d1f9c123c2e4961d480d86961434e516b9d0323608b3e4fd"
     }
   ],
   "enabled": true,
@@ -20,19 +13,19 @@
   "include": [
     {
       "path": "mods/destiny-dynasty-kingdoms-0.3.0-studio.12.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destiny-dynasty-kingdoms-0.3.0-studio.12.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-dynasty-kingdoms-lite-0.3.0-studio.12/dynasty-kingdoms-lite-0.3.0-studio.12.jar",
       "size": 51971881,
       "sha256": "c754844e27d7ac8eb62503ca5091541d4179636d55af30182d052c04b15429c2"
     },
     {
       "path": "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/08ca47b2cd00-ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/08ca47b2cd00-ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.LIBRERIA.jar",
       "size": 396628,
       "sha256": "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a"
     },
     {
       "path": "mods/geckolib-fabric-1.20.1-4.8.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/geckolib-fabric-1.20.1-4.8.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/geckolib-fabric-1.20.1-4.8.4.jar",
       "size": 969015,
       "sha256": "ed2e76a7f818fd1a044fe986a8b7f7f870131d6746cd5bcf584b7ac9c27df483"
     }

@@ -155,7 +155,7 @@ function Get-Variant([string]$Id) {
     }
     $loaderVersion = if ($definition.fabricLoaderVersion) { $definition.fabricLoaderVersion } else { $parentManifest.fabricLoaderVersion }
     if ($loaderVersion -notmatch '^\d+\.\d+\.\d+$') { throw "Invalid Fabric Loader version in ${Id}: $loaderVersion" }
-    $result = @{ schemaVersion=1;packId=$Id;version=$(if($Version){$Version}elseif($definition.version){$definition.version}else{$base.version});
+    $result = [ordered]@{ schemaVersion=1;packId=$Id;version=$(if($Version){$Version}elseif($definition.version){$definition.version}else{$base.version});
         minecraftVersion=$base.minecraftVersion;fabricLoaderVersion=$loaderVersion;javaVersion=$base.javaVersion;
         files=@($files.Values | Sort-Object path) }
     if (@($result.files | Where-Object { $_.github }).Count) { $result.schemaVersion = 2 }
@@ -166,6 +166,6 @@ function Get-Variant([string]$Id) {
 foreach ($id in @($definitions.Keys | Sort-Object)) {
     if ($definitions[$id].enabled -eq $false -and -not $IncludeDisabled) { continue }
     $manifest = Get-Variant $id
-    [IO.File]::WriteAllText("$output/manifests/$id.json", ($manifest | ConvertTo-Json -Depth 30) + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
+    [IO.File]::WriteAllText("$output/manifests/$id.json", ($manifest | ConvertTo-Json -Depth 30).Replace("`r`n", "`n") + "`n", [Text.UTF8Encoding]::new($false))
     Write-Host "$id : $($manifest.files.Count) files; schema $($manifest.schemaVersion); version $($manifest.version)"
 }

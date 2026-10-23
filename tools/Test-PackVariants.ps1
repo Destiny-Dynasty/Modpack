@@ -40,6 +40,15 @@ $pin=$a.files|Where-Object path -eq 'mods/pinned.jar';$live=$a.files|Where-Objec
 Assert ($pin.url -like '*/v1/*' -and -not $pin.github -and $pin.sha256 -eq $hash) 'Pinned releases compile into fixed, checksummed asset URLs'
 Assert ($a.schemaVersion -eq 2 -and $live.github.release -eq 'latest' -and $live.url -like '*/v2/*') 'Latest keeps its runtime policy alongside a verifiable publishing snapshot'
 Assert ((Get-ChildItem "$root/valid/release-assets" -File).Count -eq 2) 'Only exclusive local files are uploaded; inherited and external assets are not duplicated'
+$calendarRepo="$root/calendar-repo"
+New-Item -ItemType Directory -Force -Path "$calendarRepo/base","$calendarRepo/variants"|Out-Null
+Copy-Item "$root/base.json" "$calendarRepo/base/manifest.json"
+Copy-Item "$root/definitions/*.json" "$calendarRepo/variants"
+foreach($calendarVersion in @('2026.0.1-alpha','2026.0.1-beta','2026.0.1')){
+    & (Join-Path $PSScriptRoot 'Build-PackVariants.ps1') -RepositoryRoot $calendarRepo -Version $calendarVersion -OutputDirectory "$root/calendar-$calendarVersion" -ContentDirectory "$root/content" -ReleaseMetadataPath "$root/releases.json"
+    $calendarManifests=@(Get-ChildItem "$root/calendar-$calendarVersion/manifests" -File|ForEach-Object {Get-Content $_.FullName -Raw|ConvertFrom-Json})
+    Assert ($calendarManifests.Count -eq 3 -and @($calendarManifests|Where-Object version -ne $calendarVersion).Count -eq 0) "All variants publish with calendar version $calendarVersion"
+}
 $staff.enabled=$false;Write-Definitions;Generate 'disabled'
 Assert (-not (Test-Path "$root/disabled/manifests/destiny-staff.json")) 'Disabled Staff is not published as a fake working pack'
 $staff.Remove('enabled');$normal.extends='destiny-staff';Write-Definitions;Reject 'cycle';$normal.Remove('extends')

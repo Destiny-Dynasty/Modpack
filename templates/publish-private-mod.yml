@@ -33,7 +33,7 @@ jobs:
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          repository: Destiny-Dynasty/Modpack
+          repository: Destiny-Dynasty/Mod-Releases
           path: distribution
           persist-credentials: false
       - name: Publish only the compiled JAR
@@ -44,7 +44,7 @@ jobs:
           MOD_VERSION: ${{ inputs.version }}
         run: |
           $ErrorActionPreference='Stop'
-          if (-not $env:GH_TOKEN) { throw 'Configure MOD_DISTRIBUTION_TOKEN with Contents write access to Modpack.' }
+          if (-not $env:GH_TOKEN) { throw 'Configure MOD_DISTRIBUTION_TOKEN with Contents write access to Mod-Releases.' }
           gh auth setup-git
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
           $jars=@(Get-ChildItem source/build/libs/*.jar | Where-Object { $_.Name -notmatch '-(sources|javadoc|dev)\.jar$' })

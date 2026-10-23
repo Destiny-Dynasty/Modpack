@@ -8,14 +8,14 @@ param(
 $ErrorActionPreference='Stop'
 $repo=[IO.Path]::GetFullPath((Resolve-Path -LiteralPath $RepositoryRoot).Path)
 $jar=Get-Item -LiteralPath $JarPath
-$repository='Destiny-Dynasty/Modpack'
+$repository='Destiny-Dynasty/Mod-Releases'
 if ($jar.Extension -ne '.jar' -or $jar.Name -match '-(sources|javadoc)\.jar$') { throw 'Only a compiled mod JAR may be published.' }
 $zip=[IO.Compression.ZipFile]::OpenRead($jar.FullName)
 try {
     if (-not $zip.GetEntry('fabric.mod.json') -or @($zip.Entries|Where-Object {$_.FullName.EndsWith('.class')}).Count -eq 0) { throw 'The JAR must contain Fabric metadata and compiled classes; never upload a source archive.' }
 } finally { $zip.Dispose() }
-if ((& git -C $repo remote get-url origin) -notmatch 'github\.com[:/]Destiny-Dynasty/Modpack(\.git)?$' -or
-    (& git -C $repo branch --show-current).Trim() -ne 'main' -or (& git -C $repo status --porcelain)) { throw 'Use a clean main checkout of Destiny-Dynasty/Modpack.' }
+if ((& git -C $repo remote get-url origin) -notmatch 'github\.com[:/]Destiny-Dynasty/Mod-Releases(\.git)?$' -or
+    (& git -C $repo branch --show-current).Trim() -ne 'main' -or (& git -C $repo status --porcelain)) { throw 'Use a clean main checkout of Destiny-Dynasty/Mod-Releases.' }
 & git -C $repo fetch origin main
 if ($LASTEXITCODE -or (& git -C $repo rev-parse HEAD) -ne (& git -C $repo rev-parse origin/main)) { throw 'Synchronize main before publishing a mod.' }
 $tag="mod-$ModId-$Version"

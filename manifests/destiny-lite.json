@@ -1,872 +1,879 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packId": "destiny-lite",
-  "version": "1.0.0",
+  "version": "2026.0.1-alpha",
   "minecraftVersion": "1.20.1",
-  "fabricLoaderVersion": "0.16.9",
+  "fabricLoaderVersion": "0.19.5",
   "javaVersion": 21,
   "files": [
     {
       "path": "mods/adventurez-1.4.20(MOBS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/949fd6f879d5-adventurez-1.4.20.CONTENIDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/949fd6f879d5-adventurez-1.4.20.CONTENIDO.jar",
       "size": 4952938,
       "sha256": "59663cb3d9d6dd16605ef5d18179889af730e9175871843c6b48a66168e8c11a"
     },
     {
       "path": "mods/alexsmobsfabric-1.20.1-1.5.0(MOBS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/4e73eeec138a-alexsmobsfabric-1.20.1-1.5.0.MOBS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/4e73eeec138a-alexsmobsfabric-1.20.1-1.5.0.MOBS.jar",
       "size": 26631620,
       "sha256": "9833bb468f059132d43a9c5d2ff8ec62148fe28e54d51ef03b17106726a26315"
     },
     {
       "path": "mods/amendments (VISUAL)-1.20-2.2.6-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/7ad2bb5fc532-amendments-1.20-2.2.6-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7ad2bb5fc532-amendments-1.20-2.2.6-fabric.jar",
       "size": 1281333,
       "sha256": "d935f9e0b8243571e38043d964ee88a44ff555ba6fb9fb8fc73d0df90b34727e"
     },
     {
       "path": "mods/architectury-9.2.14-fabric (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/661a525b6c28-architectury-9.2.14-fabric.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/661a525b6c28-architectury-9.2.14-fabric.LIBRERIA.jar",
       "size": 585207,
       "sha256": "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321"
     },
     {
       "path": "mods/armourersworkshop-fabric-1.20.1-2.1.4 (COSMÉTICO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/c6d4414615c8-armourersworkshop-fabric-1.20.1-2.1.4.COSMETICO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c6d4414615c8-armourersworkshop-fabric-1.20.1-2.1.4.COSMETICO.jar",
       "size": 3788556,
       "sha256": "4c47a40335ed6f3ec4569222bb608e17cb3c041f75538d3d7177f49feb0c2bfc"
     },
     {
       "path": "mods/astral-end-1.0.1-mc1.20.1-1.20.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/12adc46d1da4-astral-end-1.0.1-mc1.20.1-1.20.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/12adc46d1da4-astral-end-1.0.1-mc1.20.1-1.20.4.jar",
       "size": 585611,
       "sha256": "55cda983aa02852ed547b74da4d268d267298aa5d8a54fae3592d470a8765273"
     },
     {
       "path": "mods/asynclogger-2.2.2+1.20.1-fabric (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/fed785f9bd56-asynclogger-2.2.2%2B1.20.1-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/fed785f9bd56-asynclogger-2.2.2%2B1.20.1-fabric.jar",
       "size": 596178,
       "sha256": "64cfcee02507694e7ecf4b85f54b62379c1d9e6da7fd3cb4e573bc7cdfc3c343"
     },
     {
       "path": "mods/athena-fabric-1.20.1-3.1.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/161b1b802017-athena-fabric-1.20.1-3.1.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/161b1b802017-athena-fabric-1.20.1-3.1.2.jar",
       "size": 74370,
       "sha256": "da18e81a3b72263a67c40e325537c587b48fff2fabb625c612ca4d7c2f386ecd"
     },
     {
       "path": "mods/auroramedia-1.0.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/0c7c5c8a0b71-auroramedia-1.0.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/0c7c5c8a0b71-auroramedia-1.0.0.jar",
       "size": 124432,
       "sha256": "3a0d7534fa4ebb3b408d8c38ef3ca21e658a2b1801537e451c9a8bec63dcfc15"
     },
     {
       "path": "mods/Axiom-6.0.5-for-MC1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/39c6c5db302b-Axiom-6.0.5-for-MC1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/39c6c5db302b-Axiom-6.0.5-for-MC1.20.1.jar",
       "size": 47163660,
       "sha256": "d96625a1b5e2317d4e5a5d87395cf1814654b9ccff4f5cbdbc45d12a0c947b82"
     },
     {
       "path": "mods/BadOptimizations-2.4.1-1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/a1f7e586fbb1-BadOptimizations-2.4.1-1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/a1f7e586fbb1-BadOptimizations-2.4.1-1.20.1.jar",
       "size": 460234,
       "sha256": "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8"
     },
     {
       "path": "mods/balm-fabric-1.20.1-7.3.33 (LIBRERIA WAYSTONE).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/bd0384858da2-balm-fabric-1.20.1-7.3.33.LIBRERIA.WAYSTONE.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/bd0384858da2-balm-fabric-1.20.1-7.3.33.LIBRERIA.WAYSTONE.jar",
       "size": 613825,
       "sha256": "44d4c3f97355f0d4a64561176d130903bbad447fed7d64c16c4e1d6347c7b67c"
     },
     {
       "path": "mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96 (GENERACIÓN DE MUNDO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/8049e2ccafc8-BiomesOPlenty-fabric-1.20.1-19.0.0.96.GENERACION.DE.MUNDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8049e2ccafc8-BiomesOPlenty-fabric-1.20.1-19.0.0.96.GENERACION.DE.MUNDO.jar",
       "size": 22317968,
       "sha256": "0382a9e1334cb736c4f0d86cf0d002106d6a98453a709950ebbf0e939831ea72"
     },
     {
       "path": "mods/cardinal-components-api-5.2.3 (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/68071f62c1ec-cardinal-components-api-5.2.3.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/68071f62c1ec-cardinal-components-api-5.2.3.LIBRERIA.jar",
       "size": 228709,
       "sha256": "ff1e33adde43c3e01f7e9a673cbb7f3a75453e769f80a38b057653475e296aa2"
     },
     {
       "path": "mods/caxton-0.6.4+1.20.1-FABRIC.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/bc0a242035ed-caxton-0.6.4%2B1.20.1-FABRIC.Fuentes.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/bc0a242035ed-caxton-0.6.4%2B1.20.1-FABRIC.Fuentes.jar",
       "size": 4769630,
       "sha256": "68164ceafeed6169d6f588910d8bfbbfb569134c0a283015c50660501eaefbf7"
     },
     {
       "path": "mods/celestia-fabric-1.20.1-1.2.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/8bf0fc045ad9-celestia-fabric-1.20.1-1.2.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8bf0fc045ad9-celestia-fabric-1.20.1-1.2.4.jar",
       "size": 1495373,
       "sha256": "356faca5f51c3124024c65eb3cddccb665ffcdbbd7210eb441a601aed435c10e"
     },
     {
       "path": "mods/chipped-fabric-1.20.1-3.0.7.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/26f9fd0960b1-chipped-fabric-1.20.1-3.0.7.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/26f9fd0960b1-chipped-fabric-1.20.1-3.0.7.jar",
       "size": 15057458,
       "sha256": "b1af1f1a653a65b200c5fd547c59a97e176f6d5b2e41519596f7a30394d4f330"
     },
     {
       "path": "mods/chisels-and-bits-fabric-20.1.20 (DECORACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/8ef95469cf85-chisels-and-bits-fabric-20.1.20.DECORACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8ef95469cf85-chisels-and-bits-fabric-20.1.20.DECORACION.jar",
       "size": 2029613,
       "sha256": "177a040062eaf68ecf894916144aebc017b70f39395842fbe2278356f8194702"
     },
     {
       "path": "mods/cicada-lib-0.14.3+1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/5c28c188272b-cicada-lib-0.14.3%2B1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/5c28c188272b-cicada-lib-0.14.3%2B1.20.1.jar",
       "size": 381708,
       "sha256": "ab3bb261662b1c928b2aab29ec9e1eeb48eeb166726f65a35a4a83a8415fe4f4"
     },
     {
       "path": "mods/cinematiczoom-1.20.1-1.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/2c21be527bf1-cinematiczoom-1.20.1-1.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/2c21be527bf1-cinematiczoom-1.20.1-1.3.jar",
       "size": 293318,
       "sha256": "444c09c557fa90604da1aac74fb0097df35a319c763360a9d4c2aa0c750ea597"
     },
     {
       "path": "mods/citadelfabric-1.20.1-1.1.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/6b8ca76f95a1-citadelfabric-1.20.1-1.1.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/6b8ca76f95a1-citadelfabric-1.20.1-1.1.0.jar",
       "size": 894921,
       "sha256": "0a4fd229a025c8d11fcc337f796ab14799cdd260ac64a0d81fd67263ad489f84"
     },
     {
       "path": "mods/cloth-config-11.1.136-fabric (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/6c7fcb9af801-cloth-config-11.1.136-fabric.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/6c7fcb9af801-cloth-config-11.1.136-fabric.LIBRERIA.jar",
       "size": 1172214,
       "sha256": "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa"
     },
     {
       "path": "mods/Clumps-fabric-1.20.1-12.0.0.4 (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/0b7b5e3d80cb-Clumps-fabric-1.20.1-12.0.0.4.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/0b7b5e3d80cb-Clumps-fabric-1.20.1-12.0.0.4.OPTIMIZACION.jar",
       "size": 21987,
       "sha256": "a0d0ce5923745b852de93cd831336992512f884e26872287e0a4af13e4acc67b"
     },
     {
       "path": "mods/companions-fabric-1.20.1-1.2.0 (MASCOTAS Y CONTENIDO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/8ebdb5df5cbf-companions-fabric-1.20.1-1.2.0.MASCOTAS.Y.CONTENIDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8ebdb5df5cbf-companions-fabric-1.20.1-1.2.0.MASCOTAS.Y.CONTENIDO.jar",
       "size": 6986012,
       "sha256": "7e13bee1afba166f21fc28a2f6762f0665ad1c64e456ca344affaefded80118c"
     },
     {
       "path": "mods/configured-fabric-1.20.1-2.2.3 (CONFIGURACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/34bbb9cebc4b-configured-fabric-1.20.1-2.2.3.CONFIGURACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/34bbb9cebc4b-configured-fabric-1.20.1-2.2.3.CONFIGURACION.jar",
       "size": 591886,
       "sha256": "e48fa65de9e361facc8abf0c13b5dc3dcc4922d832c1e02cab39dc8b99285057"
     },
     {
       "path": "mods/connectivity-fabric-1.20.1-7.7.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/e6948731dc72-connectivity-fabric-1.20.1-7.7.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e6948731dc72-connectivity-fabric-1.20.1-7.7.jar",
       "size": 200539,
       "sha256": "fdaea3f5209eb81af733a083ecd57b1ad299aa5d7c75cd3a3f7837bdd8ad4d16"
     },
     {
       "path": "mods/Controlling-fabric-1.20.1-12.0.2 (UTILIDAD).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/5644d108ac7e-Controlling-fabric-1.20.1-12.0.2.UTILIDAD.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/5644d108ac7e-Controlling-fabric-1.20.1-12.0.2.UTILIDAD.jar",
       "size": 122778,
       "sha256": "f7bbb7e37f2118af29450ec468d3ce4ec2606fead2861f4092a43509c6803ed6"
     },
     {
       "path": "mods/coolrain-1.4.0-1.20.1 (OPCIONAL-SONIDO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/d0d3840223c9-coolrain-1.4.0-1.20.1.OPCIONAL-SONIDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/d0d3840223c9-coolrain-1.4.0-1.20.1.OPCIONAL-SONIDO.jar",
       "size": 4133938,
       "sha256": "2becb88c266dc9e1d341b6f92667d002c02affca396e942ccf6c7996c2c891a9"
     },
     {
       "path": "mods/Corgilib-Fabric-1.20.1-4.0.3.6.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/7a1a33d5b35d-Corgilib-Fabric-1.20.1-4.0.3.6.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7a1a33d5b35d-Corgilib-Fabric-1.20.1-4.0.3.6.jar",
       "size": 700309,
       "sha256": "8f680a5f9a8f725c5ececd26a28aad308b0e0daa35ef1538586974e80be6f791"
     },
     {
       "path": "mods/create-fabric-6.0.8.1+build.1744-mc1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/be56e9b73de3-create-fabric-6.0.8.1%2Bbuild.1744-mc1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/be56e9b73de3-create-fabric-6.0.8.1%2Bbuild.1744-mc1.20.1.jar",
       "size": 32189889,
       "sha256": "a613603fb08d967c5a4138d1adb7374c4a347b91e489fe21579a4cff4f40105a"
     },
     {
       "path": "mods/createaddition-fabric+1.20.1-1.3.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/f9658d9bd678-createaddition-fabric%2B1.20.1-1.3.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/f9658d9bd678-createaddition-fabric%2B1.20.1-1.3.4.jar",
       "size": 1647722,
       "sha256": "619a285af56bca4f05bfd1a9c83beb1a29ef3222b66c648ed2e398b99f07002e"
     },
     {
       "path": "mods/CreateBetterFps-1.1.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/2320b439a41a-CreateBetterFps-1.1.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/2320b439a41a-CreateBetterFps-1.1.3.jar",
       "size": 24562,
       "sha256": "85668a81f386ce4848f1ba84536ee033a150df4521dd577e7a3d5726dee4798e"
     },
     {
       "path": "mods/createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/8521b4d00358-createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8521b4d00358-createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
       "size": 6346405,
       "sha256": "99e544c07ccca03bb20998b23dcaf99af91cb806b9fefb3df965f8d8cdeda3ec"
     },
     {
       "path": "mods/createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/21f7e41d3628-createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/21f7e41d3628-createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
       "size": 4668718,
       "sha256": "c4546f472b06d9b3b178f9763d244e2905883eb789297e6e16b6309f2b0fa168"
     },
     {
       "path": "mods/CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/19b93bce49fc-CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/19b93bce49fc-CreativeCore_FABRIC_v2.12.41_mc1.20.1.jar",
       "size": 1207852,
       "sha256": "b33f58a8f3176eb55150b7957ccb624fa7e56eee618ed2dd88e34d26fa1a2104"
     },
     {
       "path": "mods/cupboard-fabric-1.20.1-4.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/3a97299ea91f-cupboard-fabric-1.20.1-4.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/3a97299ea91f-cupboard-fabric-1.20.1-4.2.jar",
       "size": 35845,
       "sha256": "66f6bb2313885b14a9daf3911c5039853cebdd5f58c80a0f58bfcdf3a5783eaf"
     },
     {
       "path": "mods/CustomNPCs-Unofficial-Fabric-1.20.1.20251214 (NPCS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/69c2a0b1f753-CustomNPCs-Unofficial-Fabric-1.20.1.20251214.NPCS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/69c2a0b1f753-CustomNPCs-Unofficial-Fabric-1.20.1.20251214.NPCS.jar",
       "size": 12981960,
       "sha256": "47052671cdaf2fdf4d640aae25bb16a0745a222f2b5455b40346a7523627d5db"
     },
     {
       "path": "mods/Data_Anchor-fabric-1.20.1-1.0.0.23.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/819cef833b4d-Data_Anchor-fabric-1.20.1-1.0.0.23.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/819cef833b4d-Data_Anchor-fabric-1.20.1-1.0.0.23.jar",
       "size": 122341,
       "sha256": "946e6c8a5b5969b5303c43f49c79319cce18eba3d61aa3d9fefd88e82e75944d"
     },
     {
       "path": "mods/destiny-dynasty-kingdoms-0.3.0-studio.12.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destiny-dynasty-kingdoms-0.3.0-studio.12.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-dynasty-kingdoms-lite-0.3.0-studio.12/dynasty-kingdoms-lite-0.3.0-studio.12.jar",
       "size": 51971881,
       "sha256": "c754844e27d7ac8eb62503ca5091541d4179636d55af30182d052c04b15429c2"
     },
     {
+      "path": "mods/destiny-realms.jar",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "asset": "destiny-realms-*.jar",
+        "release": "latest",
+        "channel": "destiny-realms"
+      },
+      "modId": "destinydynasty",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-realms-0.1.0/destiny-realms-0.1.0.jar",
+      "size": 20174647,
+      "sha256": "1878d5a67e9e6564793589f254090a54147cd83be474f3745944f17128214d5b"
+    },
+    {
       "path": "mods/destinycombat-0.1.0+ef20.14.17.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destinycombat-0.1.0%2Bef20.14.17.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-combat-lite-0.1.0-ef20.14.17/destiny-combat-lite-0.1.0-ef20.14.17.jar",
       "size": 3603379,
       "sha256": "337cc191b282bb4acf052e97bcf82c4b3496dd24a89b8a383162c2559310e898"
     },
     {
-      "path": "mods/destinydynasty-0.1.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/destinydynasty-0.1.0.jar",
-      "size": 23374987,
-      "sha256": "571936a396a2f835d1f9c123c2e4961d480d86961434e516b9d0323608b3e4fd"
-    },
-    {
       "path": "mods/do_a_barrel_roll-fabric-3.6.1+1.20.1 (VISUAL - ELYTRAS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/28c06eec7f4b-do_a_barrel_roll-fabric-3.6.1%2B1.20.1.VISUAL.-.ELYTRAS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/28c06eec7f4b-do_a_barrel_roll-fabric-3.6.1%2B1.20.1.VISUAL.-.ELYTRAS.jar",
       "size": 502529,
       "sha256": "c9c337ab040331814e093392f05f93be10f0fe5846fe59649dd718e714c8e155"
     },
     {
       "path": "mods/dragonlib-3.0.29+mc1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/e717248108ac-dragonlib-3.0.29%2Bmc1.20.1-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e717248108ac-dragonlib-3.0.29%2Bmc1.20.1-fabric.jar",
       "size": 2841141,
       "sha256": "56befb0459762ad75123acd6ea53e42574a63a418b3f8cfb98663030f106faaa"
     },
     {
       "path": "mods/emi-1.1.24+1.20.1+fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/bb7ce6975323-emi-1.1.24%2B1.20.1%2Bfabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/bb7ce6975323-emi-1.1.24%2B1.20.1%2Bfabric.jar",
       "size": 1124008,
       "sha256": "537b062e0dc6f028cf84cf66a473ed1b8842219a708d17cdb292401441b0f367"
     },
     {
       "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric (ANIMACIÓN PERSONAJE).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/6d8fae33cd38-emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.ANIMACION.PERSONAJE.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/6d8fae33cd38-emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.ANIMACION.PERSONAJE.jar",
       "size": 873611,
       "sha256": "e8c5fc2d618008a0ef52728508909945315bb9bf99d78f1478ec42cef502a4e0"
     },
     {
       "path": "mods/Enhanced-Celestials-2-Core-Fabric-1.20.1-1.0.3.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/37cd886304fd-Enhanced-Celestials-2-Core-Fabric-1.20.1-1.0.3.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/37cd886304fd-Enhanced-Celestials-2-Core-Fabric-1.20.1-1.0.3.3.jar",
       "size": 1041626,
       "sha256": "607616cd42a8c2d545b7e5e17c420759cb03b032d2c984faaf62b6b93e1ee5a6"
     },
     {
       "path": "mods/Enhanced-Celestials-2-Default-Lunar-Events-Fabric-1.20.1-1.0.0.6.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/9e25441afc58-Enhanced-Celestials-2-Default-Lunar-Events-Fabric-1.20.1-1.0.0.6.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/9e25441afc58-Enhanced-Celestials-2-Default-Lunar-Events-Fabric-1.20.1-1.0.0.6.jar",
       "size": 1506712,
       "sha256": "3c8642a764088f700ff29eb0007aec3091e176c31ac58edab08e28fc23ed4fe5"
     },
     {
       "path": "mods/Enhanced-Celestials-2-Shaders-Fabric-1.20.1-1.0.0.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/8534b8e9c2e9-Enhanced-Celestials-2-Shaders-Fabric-1.20.1-1.0.0.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8534b8e9c2e9-Enhanced-Celestials-2-Shaders-Fabric-1.20.1-1.0.0.4.jar",
       "size": 117762,
       "sha256": "d115981acd07719ef81925ac7cd62972820229bb4bd1da1cea3bea4eaa1ca09b"
     },
     {
       "path": "mods/enhancedblockentities-0.9+1.20 (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/542d5a8a0a78-enhancedblockentities-0.9%2B1.20.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/542d5a8a0a78-enhancedblockentities-0.9%2B1.20.OPTIMIZACION.jar",
       "size": 490690,
       "sha256": "1c4ce2c00d8cc6d2269de3cadaba551607c62692a8e5ad1d7c618462ed7ed05b"
     },
     {
       "path": "mods/entflags-fabric-1.20.1-1.2.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/a0784d4fa8dd-entflags-fabric-1.20.1-1.2.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/a0784d4fa8dd-entflags-fabric-1.20.1-1.2.0.jar",
       "size": 1996675,
       "sha256": "664912e93c181a4bf7e72fdf6317963bceab48f7e21fdea3714003e4f09726f1"
     },
     {
       "path": "mods/entityculling-fabric-1.11.3-mc1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/5b49236dd9ab-entityculling-fabric-1.11.3-mc1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/5b49236dd9ab-entityculling-fabric-1.11.3-mc1.20.1.jar",
       "size": 1516696,
       "sha256": "8944942832e93d717bac4639c27dbc7fb883453002982304393edad3b38cd171"
     },
     {
       "path": "mods/fabric-api-0.92.12+1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/636306c3c240-fabric-api-0.92.12%2B1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/636306c3c240-fabric-api-0.92.12%2B1.20.1.jar",
       "size": 2137232,
       "sha256": "4197ff4fbdac13cffccd267c1bc59e9fbabb2b5683a9d5f8023f4b5ea16a1c1e"
     },
     {
       "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/aef0090c3ba7-fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/aef0090c3ba7-fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
       "size": 8142878,
       "sha256": "fbdbf5286ab9d65fedb49e6e01c15e338ae303eb7b9d8c7423d0a9bcfe526ef9"
     },
     {
       "path": "mods/ferritecore-6.0.1-fabric (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/fd856f505833-ferritecore-6.0.1-fabric.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/fd856f505833-ferritecore-6.0.1-fabric.OPTIMIZACION.jar",
       "size": 125197,
       "sha256": "c7ba1118a05b2da900d1c369fbe1017a3e3ec3cafe5e51398b851279b9becf24"
     },
     {
       "path": "mods/firework_table-fabric-1.0.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/170047f7a317-firework_table-fabric-1.0.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/170047f7a317-firework_table-fabric-1.0.1.jar",
       "size": 65795,
       "sha256": "0396315070ffd2757496b15d3b2d1487e412c16109eaec4039dc6f4c211acc74"
     },
     {
       "path": "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/08ca47b2cd00-ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/08ca47b2cd00-ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.LIBRERIA.jar",
       "size": 396628,
       "sha256": "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a"
     },
     {
       "path": "mods/framework-fabric-1.20.1-0.8.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/22f48ca87827-framework-fabric-1.20.1-0.8.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/22f48ca87827-framework-fabric-1.20.1-0.8.0.jar",
       "size": 1496155,
       "sha256": "fb35570ec10ad863a391c3da969d2555f72bb75aa02fc0d12c504f7362a00f7a"
     },
     {
       "path": "mods/fusion-1.3.16-fabric-mc1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/b0a980679a7b-fusion-1.3.16-fabric-mc1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b0a980679a7b-fusion-1.3.16-fabric-mc1.20.1.jar",
       "size": 931032,
       "sha256": "55bdced6c56c404aa2ca8134ac6799b7f1f72ec5f76069a1107e812c4d89cce1"
     },
     {
       "path": "mods/fzzy_config-0.7.7+1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/c9dc7fb9a53c-fzzy_config-0.7.7%2B1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c9dc7fb9a53c-fzzy_config-0.7.7%2B1.20.1.jar",
       "size": 2395040,
       "sha256": "719e2b5faa36104551f8f49e1c5f9189f8dcac65fcb648d61e1bae4d41aea1fa"
     },
     {
       "path": "mods/geckolib-fabric-1.20.1-4.8.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-lite-1.0.0/geckolib-fabric-1.20.1-4.8.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/geckolib-fabric-1.20.1-4.8.4.jar",
       "size": 969015,
       "sha256": "ed2e76a7f818fd1a044fe986a8b7f7f870131d6746cd5bcf584b7ac9c27df483"
     },
     {
       "path": "mods/genshinstrument-fabric-1.20-1.20.1-5.0 (INTRUMENTOS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/ebdb8e84f2c2-genshinstrument-fabric-1.20-1.20.1-5.0.INTRUMENTOS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/ebdb8e84f2c2-genshinstrument-fabric-1.20-1.20.1-5.0.INTRUMENTOS.jar",
       "size": 7086581,
       "sha256": "f6a514246c17dd8facabc06e5cba1160b19e78725a903639e8b9e7a815be75dc"
     },
     {
       "path": "mods/gliders-fabric-1.2.0 (MOVILIDAD).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/fe062f4ff934-gliders-fabric-1.2.0.MOVILIDAD.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/fe062f4ff934-gliders-fabric-1.2.0.MOVILIDAD.jar",
       "size": 839830,
       "sha256": "6ccd3cb3c102310e16ca6b4b88163c20ac81aef3f77afa8b23ac27ab7fc4d747"
     },
     {
       "path": "mods/GlitchCore-fabric-1.20.1-0.0.1.1 (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/aef6e6e98636-GlitchCore-fabric-1.20.1-0.0.1.1.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/aef6e6e98636-GlitchCore-fabric-1.20.1-0.0.1.1.LIBRERIA.jar",
       "size": 322107,
       "sha256": "fb7e7d4235cabf8395478bc42aef6bbfdbbef8951ddf1f70f73719e0b24c99cc"
     },
     {
       "path": "mods/IAS-Fabric-1.20.1-9.0.3 (CAMBIO DE CUENTA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/e83dd742e5d7-IAS-Fabric-1.20.1-9.0.3.CAMBIO.DE.CUENTA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e83dd742e5d7-IAS-Fabric-1.20.1-9.0.3.CAMBIO.DE.CUENTA.jar",
       "size": 310276,
       "sha256": "c217cc72501636bae0734069690549833b27bc9220559f2441841ba3b6bdbeab"
     },
     {
       "path": "mods/Icterine-fabric-1.20.0-1-1.3.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/28172e6fd678-Icterine-fabric-1.20.0-1-1.3.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/28172e6fd678-Icterine-fabric-1.20.0-1-1.3.0.jar",
       "size": 39604,
       "sha256": "2069791775c6e65b35f2d811b19f8c15dce2851069913f82512502c3d24aaafe"
     },
     {
       "path": "mods/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/dab24ee4a5c6-ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/dab24ee4a5c6-ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar",
       "size": 348818,
       "sha256": "5eea426af467564618e017e8f3a62f1c5c4224ab32a0a1726313de130a2d783d"
     },
     {
       "path": "mods/immersive_furniture-fabric-0.3.3+1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/eeba8f798587-immersive_furniture-fabric-0.3.3%2B1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/eeba8f798587-immersive_furniture-fabric-0.3.3%2B1.20.1.jar",
       "size": 987841,
       "sha256": "c842a8ca94d1b8c6ca4c0ea13875e922a6b28591ef3f92b1fc1019878b968c09"
     },
     {
       "path": "mods/immersivemessages-fabric-1.0.18-1.20.1 (VISUAL).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/e1010c0d2978-immersivemessages-fabric-1.0.18-1.20.1.VISUAL.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e1010c0d2978-immersivemessages-fabric-1.0.18-1.20.1.VISUAL.jar",
       "size": 1880206,
       "sha256": "3ab401e3a100d8bbc6a6e1483fed5b438e40082461414688aa9a48aa41bcec95"
     },
     {
       "path": "mods/indium-1.0.36+mc1.20.1 (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/29602babbd7d-indium-1.0.36%2Bmc1.20.1.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/29602babbd7d-indium-1.0.36%2Bmc1.20.1.OPTIMIZACION.jar",
       "size": 105382,
       "sha256": "8434d0abc8826e2540c26741fea45a1ab9d48f650746de282b36850fa1d01999"
     },
     {
       "path": "mods/iris-1.7.6+mc1.20.1 (SHADERS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/584e6a64b7fd-iris-1.7.6%2Bmc1.20.1.SHADERS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/584e6a64b7fd-iris-1.7.6%2Bmc1.20.1.SHADERS.jar",
       "size": 2726899,
       "sha256": "9eb15e563e0c9ae6eff15b7863f8432dd290cf9f724c7373e9b15b14aa829ed5"
     },
     {
       "path": "mods/Ixeris-4.6.10+1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/655cb960c61a-Ixeris-4.6.10%2B1.20.1-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/655cb960c61a-Ixeris-4.6.10%2B1.20.1-fabric.jar",
       "size": 785149,
       "sha256": "0edd132a19b83522c1c378170e60e8f8925ec4acdbb7e2075be7fc6a98f44bdc"
     },
     {
       "path": "mods/Jade-1.20-Fabric-11.13.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/b9fb508d2a83-Jade-1.20-Fabric-11.13.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b9fb508d2a83-Jade-1.20-Fabric-11.13.3.jar",
       "size": 553868,
       "sha256": "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375"
     },
     {
       "path": "mods/keybind_fix-1.0.0 (FIX CONTROLES).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/7ccfbb488f05-keybind_fix-1.0.0.FIX.CONTROLES.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7ccfbb488f05-keybind_fix-1.0.0.FIX.CONTROLES.jar",
       "size": 16312,
       "sha256": "56bb61c6cbbaa5053d7c64ebe786a9a724ba7ea636b299a14283aa7fd4adf324"
     },
     {
       "path": "mods/knightlib-fabric-1.20.1-1.4.2 (LIBRERIA COMPANIONS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/14ac8ded762c-knightlib-fabric-1.20.1-1.4.2.LIBRERIA.COMPANIONS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/14ac8ded762c-knightlib-fabric-1.20.1-1.4.2.LIBRERIA.COMPANIONS.jar",
       "size": 472190,
       "sha256": "507cbd2561b6a6f746fa326c86f22ff98da0628e01927fbe1c6d62747252dda6"
     },
     {
       "path": "mods/krypton-0.2.3 (OPTIMIZACION RED).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/95dab564d646-krypton-0.2.3.OPTIMIZACION.RED.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/95dab564d646-krypton-0.2.3.OPTIMIZACION.RED.jar",
       "size": 185895,
       "sha256": "69ad1810206ce12181b1b083640f044e7e250781c36c96c655eac36209057698"
     },
     {
       "path": "mods/kubejs-fabric-2001.6.5-build.26 (SCRIPTS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/f4ec9ebc5182-kubejs-fabric-2001.6.5-build.26.SCRIPTS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/f4ec9ebc5182-kubejs-fabric-2001.6.5-build.26.SCRIPTS.jar",
       "size": 1608326,
       "sha256": "e1a3f3fe1190635b8fe6469e28c21969f17183a0fafb3e69c21709c564894923"
     },
     {
       "path": "mods/kubejsadditions-fabric-4.3.4 (CRACIÓN SCRIPTS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/9d209d0f3134-kubejsadditions-fabric-4.3.4.CRACION.SCRIPTS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/9d209d0f3134-kubejsadditions-fabric-4.3.4.CRACION.SCRIPTS.jar",
       "size": 348384,
       "sha256": "9f626a2af972bc10b20c48f86a2d817ba593949a4913ab2bd7ed0eba8672258f"
     },
     {
       "path": "mods/letsdo-API-fabric-1.2.15-fabric (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/d82426b772a3-letsdo-API-fabric-1.2.15-fabric.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/d82426b772a3-letsdo-API-fabric-1.2.15-fabric.LIBRERIA.jar",
       "size": 1702813,
       "sha256": "fdf4208313555faa7af4ec7bf3bfb9eaf790f2924e442d6d28801ae05883325e"
     },
     {
       "path": "mods/letsdo-bakery-fabric-2.0.6 (COMIDA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/db1f72a97bfb-letsdo-bakery-fabric-2.0.6.COMIDA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/db1f72a97bfb-letsdo-bakery-fabric-2.0.6.COMIDA.jar",
       "size": 2236226,
       "sha256": "577e5197918a3e253ae4d03359b835d9a352df2acc6e5b849161b5c17293487b"
     },
     {
       "path": "mods/letsdo-bloomingnature-fabric-1.0.12 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/40946f385438-letsdo-bloomingnature-fabric-1.0.12.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/40946f385438-letsdo-bloomingnature-fabric-1.0.12.AGRICULTURA.jar",
       "size": 4093239,
       "sha256": "73115a87e9f71a1281f1fbdeac3a73756931d990f721d61d4d3c58eeecb64e79"
     },
     {
       "path": "mods/letsdo-brewery-fabric-1.1.9.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/1099235acb06-letsdo-brewery-fabric-1.1.9.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/1099235acb06-letsdo-brewery-fabric-1.1.9.jar",
       "size": 2211492,
       "sha256": "744e0bf4eab5021cef354fcb7677131e63bf220dba101c023344a25c0ebfd841"
     },
     {
       "path": "mods/letsdo-farm_and_charm-fabric-1.0.14 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/126ae90d344d-letsdo-farm_and_charm-fabric-1.0.14.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/126ae90d344d-letsdo-farm_and_charm-fabric-1.0.14.AGRICULTURA.jar",
       "size": 3331230,
       "sha256": "65df5358138969a37e3e3993128d2f0d0d78edef3a35059f1fd9659c490c17f0"
     },
     {
       "path": "mods/letsdo-herbalbrews-fabric-1.0.12 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/3c0a65389977-letsdo-herbalbrews-fabric-1.0.12.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/3c0a65389977-letsdo-herbalbrews-fabric-1.0.12.AGRICULTURA.jar",
       "size": 729071,
       "sha256": "e3ed8151e25517a23af8863ed0bbdd36e0e027bcccaa1f4ac2d8cfba0549279a"
     },
     {
       "path": "mods/letsdo-lilis_lucky_lures-fabric-1.0.2 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/bf156504b972-letsdo-lilis_lucky_lures-fabric-1.0.2.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/bf156504b972-letsdo-lilis_lucky_lures-fabric-1.0.2.AGRICULTURA.jar",
       "size": 414852,
       "sha256": "37b086d0ec296e374e69d286f6c8055f4e3497392fa69bda36faad51027691e6"
     },
     {
       "path": "mods/letsdo-meadow-fabric-1.3.25 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/3a1d0f55699c-letsdo-meadow-fabric-1.3.25.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/3a1d0f55699c-letsdo-meadow-fabric-1.3.25.AGRICULTURA.jar",
       "size": 2658744,
       "sha256": "0475ef8cde12bf84779546fbcc7be5970ef3ec9df756eba42720a6cf4b8ab956"
     },
     {
       "path": "mods/letsdo-vinery-fabric-1.4.41 (AGRICULTURA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/045d6eee291a-letsdo-vinery-fabric-1.4.41.AGRICULTURA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/045d6eee291a-letsdo-vinery-fabric-1.4.41.AGRICULTURA.jar",
       "size": 3043160,
       "sha256": "d9a64ee64b2c618e6b4ca15963c1998d2ee20769b74784ea1081741be58275af"
     },
     {
       "path": "mods/lightaura-7.2.0 (LUZ EN MANO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/a6662d892780-lightaura-7.2.0.LUZ.EN.MANO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/a6662d892780-lightaura-7.2.0.LUZ.EN.MANO.jar",
       "size": 35271,
       "sha256": "c52cd3d068d2c3a58f08e8d5ae2f5d387d74125ab22a6ec5c70b37999f29ac89"
     },
     {
       "path": "mods/lithium-fabric-mc1.20.1-0.11.4 (OPTIMIZACIÓN).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/86b4612f2a21-lithium-fabric-mc1.20.1-0.11.4.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/86b4612f2a21-lithium-fabric-mc1.20.1-0.11.4.OPTIMIZACION.jar",
       "size": 691483,
       "sha256": "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782"
     },
     {
       "path": "mods/lootr-fabric-1.20-0.7.35.86 (LOOT).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/3d7374ffeec2-lootr-fabric-1.20-0.7.35.86.LOOT.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/3d7374ffeec2-lootr-fabric-1.20-0.7.35.86.LOOT.jar",
       "size": 575601,
       "sha256": "153d74d44bc0fb13dc2fd38b011df7218f29f611c609826a1abc916e5d2d2f9d"
     },
     {
       "path": "mods/mightyarchitect-2.1.1+mc1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/e44bd42e5993-mightyarchitect-2.1.1%2Bmc1.20.1-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e44bd42e5993-mightyarchitect-2.1.1%2Bmc1.20.1-fabric.jar",
       "size": 992715,
       "sha256": "ff184512171ca0eb272ec2076229d68f9040d7f71ec6ad0a1db17580863aa5af"
     },
     {
       "path": "mods/minecells-1.9.2 (DUNGEONS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/419f4ea30893-minecells-1.9.2.DUNGEONS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/419f4ea30893-minecells-1.9.2.DUNGEONS.jar",
       "size": 5079293,
       "sha256": "8624e0217cb60d54b2288704894f2960e7cd30d25643ca3838c1b4edda337300"
     },
     {
       "path": "mods/modernfix-fabric-5.25.2+mc1.20.1 (OPTIMIZACION).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/8e2730a54eae-modernfix-fabric-5.25.2%2Bmc1.20.1.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8e2730a54eae-modernfix-fabric-5.25.2%2Bmc1.20.1.OPTIMIZACION.jar",
       "size": 545175,
       "sha256": "5c1f852046e62a17056bb6b571164e61644076c5eb9029c92b31e337cc62c0d9"
     },
     {
       "path": "mods/modmenu-7.2.2 (MENÚ MODS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/b240a27acbb6-modmenu-7.2.2.MENU.MODS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b240a27acbb6-modmenu-7.2.2.MENU.MODS.jar",
       "size": 721366,
       "sha256": "a041b0f0305ffa5eb90120aa23768e1cfbb27583904b1751e3783c0f69382f1a"
     },
     {
       "path": "mods/monolib-fabric-1.20.1-4.1.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/7ebd91260e79-monolib-fabric-1.20.1-4.1.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7ebd91260e79-monolib-fabric-1.20.1-4.1.2.jar",
       "size": 412922,
       "sha256": "a620dc706a2faca0804746d181aa0c155cc69b00bc61f943a0aa4794d16ff22a"
     },
     {
       "path": "mods/moonlight-1.20-2.16.37-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/20c999dc4183-moonlight-1.20-2.16.37-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/20c999dc4183-moonlight-1.20-2.16.37-fabric.jar",
       "size": 1393625,
       "sha256": "64f480141dac5d544f5cbc3b982132567779a1a2b5e29e593eefaffa75691460"
     },
     {
       "path": "mods/moreculling-1.20.1-0.24.6.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/e6dd2a14f8a9-moreculling-1.20.1-0.24.6.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e6dd2a14f8a9-moreculling-1.20.1-0.24.6.jar",
       "size": 274523,
       "sha256": "6ba025225149a19ff152a83198c1c10cc321e9e8a7706f7c77f25523ece89854"
     },
     {
       "path": "mods/no_villager_cure_discount-1.0 (BALANCE ALDEANOS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/98f0c3ecc0bb-no_villager_cure_discount-1.0.BALANCE.ALDEANOS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/98f0c3ecc0bb-no_villager_cure_discount-1.0.BALANCE.ALDEANOS.jar",
       "size": 13473,
       "sha256": "1179d72d3c5ea0463c1bfadcf8c86d15cabc6c3c2e2b84ed072deaa05ae9c034"
     },
     {
       "path": "mods/NoChatReports-FABRIC-1.20.1-v2.2.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/139aa2a4818e-NoChatReports-FABRIC-1.20.1-v2.2.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/139aa2a4818e-NoChatReports-FABRIC-1.20.1-v2.2.3.jar",
       "size": 620317,
       "sha256": "fb8ce6ff981bfc087f5ea5bb041548324aa98e241305155ebb4621c2236ec7b5"
     },
     {
       "path": "mods/Not Enough Recipe Book-FABRIC-0.4.1+1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/7c140d647f91-Not.Enough.Recipe.Book-FABRIC-0.4.1%2B1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7c140d647f91-Not.Enough.Recipe.Book-FABRIC-0.4.1%2B1.20.1.jar",
       "size": 21366,
       "sha256": "d682d4f8e8c9ed3f98170ab857610baaa8ad45c5a0113fd35fc00a91e29f5bc7"
     },
     {
       "path": "mods/NotSoEssential-Fabric-1.0.5 (UTILIDAD).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/6133185fc539-NotSoEssential-Fabric-1.0.5.UTILIDAD.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/6133185fc539-NotSoEssential-Fabric-1.0.5.UTILIDAD.jar",
       "size": 27257,
       "sha256": "f067f368132d68f9dd21e6dee8bccd50a27dc8ab1cd88cef48dcf8652d8cccd4"
     },
     {
       "path": "mods/obscuras_simple_storage-fabric-mc1.20.1-v5.1.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/98cf5d27e55e-obscuras_simple_storage-fabric-mc1.20.1-v5.1.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/98cf5d27e55e-obscuras_simple_storage-fabric-mc1.20.1-v5.1.1.jar",
       "size": 2673242,
       "sha256": "2190d3fcee846c24b1b849920ab11750d8972a7297d8081686acacf4386884c7"
     },
     {
       "path": "mods/OctoLib-FABRIC-0.5.0.1+1.20.1 (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/ebf246bd44a0-OctoLib-FABRIC-0.5.0.1%2B1.20.1.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/ebf246bd44a0-OctoLib-FABRIC-0.5.0.1%2B1.20.1.LIBRERIA.jar",
       "size": 424020,
       "sha256": "cfa75c8b7ca08a175332ea66a427e95748389de019a6fcf7fc5852b104ffcc51"
     },
     {
       "path": "mods/Oh-The-Biomes-Weve-Gone-Fabric-1.8.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/1069f5325880-Oh-The-Biomes-Weve-Gone-Fabric-1.8.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/1069f5325880-Oh-The-Biomes-Weve-Gone-Fabric-1.8.2.jar",
       "size": 18411841,
       "sha256": "c2add3c32cea6acebe5546a6e1072360b3e3b167f5de2216ca041a17ef669291"
     },
     {
       "path": "mods/Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.3.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/36225400271d-Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.3.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/36225400271d-Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.3.jar",
       "size": 174934,
       "sha256": "efa7e380c67f3e8ab0f96db4f35796eb73ee3d3987e5b17d7f611c65d43a6de3"
     },
     {
       "path": "mods/owo-lib-0.11.2+1.20.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/f817244ccac5-owo-lib-0.11.2%2B1.20.LIBRERIA.ANIMATION.OVERHAUL.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/f817244ccac5-owo-lib-0.11.2%2B1.20.LIBRERIA.ANIMATION.OVERHAUL.jar",
       "size": 905421,
       "sha256": "1c249c30d3e50bba5cb35e0c3acebf4bd5f969bd33402de2f3a6a619fd688d12"
     },
     {
       "path": "mods/Patchouli-1.20.1-85-FABRIC (GUÍAS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/90f33ab577c8-Patchouli-1.20.1-85-FABRIC.GUIAS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/90f33ab577c8-Patchouli-1.20.1-85-FABRIC.GUIAS.jar",
       "size": 857123,
       "sha256": "485e23ab9727c7e9f585f435020d733706a80c7f0a1dc20e85c7398e1d76b919"
     },
     {
       "path": "mods/Pehkui-3.8.3+1.14.4-1.21 (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/507b56a74ade-Pehkui-3.8.3%2B1.14.4-1.21.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/507b56a74ade-Pehkui-3.8.3%2B1.14.4-1.21.LIBRERIA.jar",
       "size": 555041,
       "sha256": "3129e6fd47062007c815eebd1bd6739a8ecceacf5de2f74b22cce0b75fada75b"
     },
     {
       "path": "mods/player-animation-lib-fabric-1.0.2-rc1+1.20 (ANIMACIONES LIBRERIA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/ad9c2a986713-player-animation-lib-fabric-1.0.2-rc1%2B1.20.ANIMACIONES.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/ad9c2a986713-player-animation-lib-fabric-1.0.2-rc1%2B1.20.ANIMACIONES.LIBRERIA.jar",
       "size": 181008,
       "sha256": "0b10021fa638997398110777747726b1cb7a27bc3f8ff1b12e2b93ac01784018"
     },
     {
       "path": "mods/polymorph-fabric-0.49.11+1.20.1 (CRAFTEOS IGUALES).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/8fd37639b79a-polymorph-fabric-0.49.11%2B1.20.1.CRAFTEOS.IGUALES.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8fd37639b79a-polymorph-fabric-0.49.11%2B1.20.1.CRAFTEOS.IGUALES.jar",
       "size": 683213,
       "sha256": "cab87713289cb6570a0537726d67a7e343543f25e288e53d76c3b67c7202f8ce"
     },
     {
       "path": "mods/polytone-1.20-3.5.26-fabric (RECURSOS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/d6232e3518f8-polytone-1.20-3.5.26-fabric.RECURSOS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/d6232e3518f8-polytone-1.20-3.5.26-fabric.RECURSOS.jar",
       "size": 963630,
       "sha256": "d10d278b17de9f1ee9e3e4dee6f1bd9af353ac5467e2a7eff32f131b850eaad8"
     },
     {
       "path": "mods/pous-colored-lights-3.5.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/539c2b0376f7-pous-colored-lights-3.5.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/539c2b0376f7-pous-colored-lights-3.5.0.jar",
       "size": 2216695,
       "sha256": "b517d691516a75ad2e92ee7dad70b62f409fc502b0a8199dd571c9729d8a46ba"
     },
     {
       "path": "mods/RegionsUnexploredFabric-0.5.6+1.20.1 (GENERACIÓN DE MUNDO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/957f608e7f16-RegionsUnexploredFabric-0.5.6%2B1.20.1.GENERACION.DE.MUNDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/957f608e7f16-RegionsUnexploredFabric-0.5.6%2B1.20.1.GENERACION.DE.MUNDO.jar",
       "size": 5689530,
       "sha256": "d24dc3a6a08432d51d042750fe50a6c5051f9d0c725cfc434cf9ce6eb8b7e332"
     },
     {
       "path": "mods/resourcefullib-fabric-1.20.1-2.1.29.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/0a11e04e008f-resourcefullib-fabric-1.20.1-2.1.29.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/0a11e04e008f-resourcefullib-fabric-1.20.1-2.1.29.LIBRERIA.jar",
       "size": 431646,
       "sha256": "2543d76f4f440d4401dccf7675f836381260919f0ac884e2696ae67e600adeeb"
     },
     {
       "path": "mods/respound-1.0.3 (RESPAWN SONIDO).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/069836047b41-respound-1.0.3.RESPAWN.SONIDO.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/069836047b41-respound-1.0.3.RESPAWN.SONIDO.jar",
       "size": 63807,
       "sha256": "32eb0e95252e2903d399447d47e1941ad50d656cc01ec9f1921e16a0400261d7"
     },
     {
       "path": "mods/rhino-fabric-2001.2.3-build.10.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/72075c030ded-rhino-fabric-2001.2.3-build.10.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/72075c030ded-rhino-fabric-2001.2.3-build.10.LIBRERIA.jar",
       "size": 1743587,
       "sha256": "e205fac40f7f27abfa284b00f62d9c1cbd6da494a64cb984ebadd9d76ff5f3ee"
     },
     {
       "path": "mods/saintsdragons-0.9.88+fabric-1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/8142406e2db9-saintsdragons-0.9.88%2Bfabric-1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8142406e2db9-saintsdragons-0.9.88%2Bfabric-1.20.1.jar",
       "size": 30498005,
       "sha256": "1093be9e314248646162bf8362e30cee63f6c6ed57d1f6590ce784cc69aee532"
     },
     {
       "path": "mods/Schizo Cave Dweller 1.20.1 fabric (Contenido - Terror).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/5a5c18f47ea1-Schizo.Cave.Dweller.1.20.1.fabric.Contenido.-.Terror.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/5a5c18f47ea1-Schizo.Cave.Dweller.1.20.1.fabric.Contenido.-.Terror.jar",
       "size": 2638885,
       "sha256": "db8fc56bc1fb7099aea68a9c5246959d9a06494a84f2f55435fde21b800865c0"
     },
     {
       "path": "mods/Searchables-fabric-1.20.1-1.0.3 (UTILIDAD).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/924f9f547068-Searchables-fabric-1.20.1-1.0.3.UTILIDAD.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/924f9f547068-Searchables-fabric-1.20.1-1.0.3.UTILIDAD.jar",
       "size": 80283,
       "sha256": "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a"
     },
     {
       "path": "mods/smallships_upgrades-fabric-1.20.1-1.0.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/c36fbb4a4c61-smallships_upgrades-fabric-1.20.1-1.0.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c36fbb4a4c61-smallships_upgrades-fabric-1.20.1-1.0.1.jar",
       "size": 53880,
       "sha256": "f1d50c6fa7efdf4788ffcd0fec38de6dc071eb4f3cdbf106b13c10a2db5ecc41"
     },
     {
       "path": "mods/smallships-fabric-1.20.1-2.0.0-b1.4 (VEHÍCULOS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/b68106f85804-smallships-fabric-1.20.1-2.0.0-b1.4.VEHICULOS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b68106f85804-smallships-fabric-1.20.1-2.0.0-b1.4.VEHICULOS.jar",
       "size": 2160482,
       "sha256": "dfbdebdd60809beeb2893902e8b30c806a164675066a56662e8640c3bbead2f8"
     },
     {
       "path": "mods/smallshipsheraldry-0.3.0+mc.1.20.1-fabric  (Addon Small Ships).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/e41d7289886d-smallshipsheraldry-0.3.0%2Bmc.1.20.1-fabric.Addon.Small.Ships.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e41d7289886d-smallshipsheraldry-0.3.0%2Bmc.1.20.1-fabric.Addon.Small.Ships.jar",
       "size": 331594,
       "sha256": "e5727b6737a2a41b5b8abe03fca7c9beb831e3346bfe5f1da98d1ef515b98cde"
     },
     {
       "path": "mods/smartbooks-fabric-1.20.1-1.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/59e832741109-smartbooks-fabric-1.20.1-1.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/59e832741109-smartbooks-fabric-1.20.1-1.2.jar",
       "size": 6752264,
       "sha256": "ab0c623397bf11be21109dba6f251d0ab49bc9908b47727d77afef9391c7391e"
     },
     {
       "path": "mods/sodium-extra-0.5.9+mc1.20.1 (OPTIMIZACION).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/9673b2290449-sodium-extra-0.5.9%2Bmc1.20.1.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/9673b2290449-sodium-extra-0.5.9%2Bmc1.20.1.OPTIMIZACION.jar",
       "size": 370701,
       "sha256": "5cae656838b595e27d5133264374e5d90f5f35a39e343bfc5a76b908fec97c9f"
     },
     {
       "path": "mods/sodium-fabric-0.5.13+mc1.20.1 (OPTIMIZACION).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/9b1b94c41ba4-sodium-fabric-0.5.13%2Bmc1.20.1.OPTIMIZACION.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/9b1b94c41ba4-sodium-fabric-0.5.13%2Bmc1.20.1.OPTIMIZACION.jar",
       "size": 971552,
       "sha256": "688c26029ce69f0b1f7cf936866656ca6723228ac46c4aef5b5f793b1e6abd22"
     },
     {
       "path": "mods/sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/548871c735ea-sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/548871c735ea-sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
       "size": 986101,
       "sha256": "15ec32d411a70384743a5770ae6a22b71a8418af7f8eebbffac7bfc8a1836c0f"
     },
     {
       "path": "mods/sophisticatedcore-1.20.1-1.2.7.15.166.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/d592e853dc9f-sophisticatedcore-1.20.1-1.2.7.15.166.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/d592e853dc9f-sophisticatedcore-1.20.1-1.2.7.15.166.jar",
       "size": 2858683,
       "sha256": "1739acb62e22f99424f32424b9962bd92d29e0752f5495aa116df9a7c1dd831a"
     },
     {
       "path": "mods/SpiderOverhaul-0.0.6-Fabric-v1.20.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/f12778ff5107-SpiderOverhaul-0.0.6-Fabric-v1.20.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/f12778ff5107-SpiderOverhaul-0.0.6-Fabric-v1.20.jar",
       "size": 518935,
       "sha256": "8ff31072beeeec71bcb44848232ee5e22489ed7dfea18c40ff1a7a5ca678937d"
     },
     {
       "path": "mods/spuds-shops-1.20.1-1.9.0 (TIENDA FISICA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/4d9078c39eb0-spuds-shops-1.20.1-1.9.0.TIENDA.FISICA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/4d9078c39eb0-spuds-shops-1.20.1-1.9.0.TIENDA.FISICA.jar",
       "size": 827009,
       "sha256": "f8533b0d3921d18015c5a2fe481867fae4b4f970680c5e44e67165eca9fe74a1"
     },
     {
       "path": "mods/Steam_Rails-1.7.3+fabric-mc1.20.1 (CREATE).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/1acded6bbadb-Steam_Rails-1.7.3%2Bfabric-mc1.20.1.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/1acded6bbadb-Steam_Rails-1.7.3%2Bfabric-mc1.20.1.jar",
       "size": 17088910,
       "sha256": "1fcf3a2c856a874826996d6eab884b5fbff378ecc35ae808cbba0dbd02f92ad0"
     },
     {
       "path": "mods/Stellar.View-1.20.1-0.5.3-Fabric (VISUAL).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/144abeddd437-Stellar.View-1.20.1-0.5.3-Fabric.VISUAL.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/144abeddd437-Stellar.View-1.20.1-0.5.3-Fabric.VISUAL.jar",
       "size": 1265874,
       "sha256": "559769f3af90944eebd14cc7c6a4627b36fe220df7d3c232f2615c189a0585b8"
     },
     {
       "path": "mods/Stellarity-v2-0e (VISUAL).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/7732d38399f3-Stellarity-v2-0e.VISUAL.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7732d38399f3-Stellarity-v2-0e.VISUAL.jar",
       "size": 12562436,
       "sha256": "7cf2f221caa42e7a49754f8e788b07abeee3dac0545a30dc207c9deefe18a0a2"
     },
     {
       "path": "mods/supplementaries-1.20-3.1.44-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/7307df2956ef-supplementaries-1.20-3.1.44-fabric.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7307df2956ef-supplementaries-1.20-3.1.44-fabric.jar",
       "size": 13512312,
       "sha256": "6a1fc8ad9ce0c4498d620837ba9f45f899b1329eda04b93ed1a6a98b83cf68c5"
     },
     {
       "path": "mods/table_top_craft-fabric-1.20.1-5.0.2 (JUEGOS DE MESA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/ae8be673b947-table_top_craft-fabric-1.20.1-5.0.2.JUEGOS.DE.MESA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/ae8be673b947-table_top_craft-fabric-1.20.1-5.0.2.JUEGOS.DE.MESA.jar",
       "size": 1432625,
       "sha256": "9576c23d877521e0a5ef548dd4e138f8fcbb37cb6c78312cb44897b78009688d"
     },
     {
       "path": "mods/TerraBlender-fabric-1.20.1-3.0.1.10 (LIBRERÍA).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/b9e21219ad56-TerraBlender-fabric-1.20.1-3.0.1.10.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b9e21219ad56-TerraBlender-fabric-1.20.1-3.0.1.10.LIBRERIA.jar",
       "size": 322357,
       "sha256": "23f32e77d84279ce38747141b3ef67d8c5dadaf0f198c2e6f69f15eb40bdeb55"
     },
     {
       "path": "mods/txnilib-fabric-1.0.24-1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/c5d56c65df13-txnilib-fabric-1.0.24-1.20.1.LIBRERIA.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c5d56c65df13-txnilib-fabric-1.0.24-1.20.1.LIBRERIA.jar",
       "size": 1057614,
       "sha256": "b1d2848cc92f94bd3c0786e68ce0e7d750c53d3b0a82bc61603d0db2753ff355"
     },
     {
       "path": "mods/valcraft_portals-fabric-1.20.1-0.2.0.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/e71503ee791f-valcraft_portals-fabric-1.20.1-0.2.0.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/e71503ee791f-valcraft_portals-fabric-1.20.1-0.2.0.jar",
       "size": 477777,
       "sha256": "edef3b12e57fb60bd497ad9ba0944a6bd0731107eaeb78b678ebe5a4dc9ee3d6"
     },
     {
       "path": "mods/voicechat-fabric-1.20.1-2.6.22.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/66327bcafdf1-voicechat-fabric-1.20.1-2.6.22.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/66327bcafdf1-voicechat-fabric-1.20.1-2.6.22.jar",
       "size": 5279173,
       "sha256": "6a595ad90c3ab2cc9dfd25443aa404a7d18e91f84658d67123642de959c7f7a9"
     },
     {
       "path": "mods/waterframes-FABRIC-mc1.20.1-v2.1.22.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/80d026e5b976-waterframes-FABRIC-mc1.20.1-v2.1.22.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/80d026e5b976-waterframes-FABRIC-mc1.20.1-v2.1.22.jar",
       "size": 261974,
       "sha256": "7d8cff807bc53eaa6f4af2dc6c565d28a81663818c3dc566fd7c3a445b7b0962"
     },
     {
       "path": "mods/watermedia_youtube_plugin-2.1.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/f3e35e752f73-watermedia_youtube_plugin-2.1.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/f3e35e752f73-watermedia_youtube_plugin-2.1.2.jar",
       "size": 3830072,
       "sha256": "95c2841103b4d1e0c222f29b49d9500c0d5306772aa18c6eb11925be6ff7507e"
     },
     {
       "path": "mods/watermedia-2.1.37 (LIBRERIA WATERFRAMES).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/5e595d4da906-watermedia-2.1.37.LIBRERIA.WATERFRAMES.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/5e595d4da906-watermedia-2.1.37.LIBRERIA.WATERFRAMES.jar",
       "size": 37046674,
       "sha256": "cdd8e1b50e4dee0892c5ed02724cea6b1a74d2b718c7e974c9cfc0efa8c10389"
     },
     {
       "path": "mods/watervision-FB-mc1.20.1-v0.1.0-alpha (CINEMATICAS).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/3aff8acec82b-watervision-FB-mc1.20.1-v0.1.0-alpha.CINEMATICAS.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/3aff8acec82b-watervision-FB-mc1.20.1-v0.1.0-alpha.CINEMATICAS.jar",
       "size": 81782,
       "sha256": "abab97a9d61f4471ff6e4011ae077baf4cd4ff292781c317ea5b45b005030a9c"
     },
     {
       "path": "mods/waystones-fabric-1.20.1-14.1.17 (WAYSTONES).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/c77e9cad6070-waystones-fabric-1.20.1-14.1.17.WAYSTONES.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c77e9cad6070-waystones-fabric-1.20.1-14.1.17.WAYSTONES.jar",
       "size": 520003,
       "sha256": "c52b67d815020c393df2c645ce8323c112cad6e1fdabbcb709e7ba87c2c33b6b"
     },
     {
       "path": "mods/weapon-aura-fabric-1.20.1-1.0.0 (VISUAL).jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/c02c1faa3944-weapon-aura-fabric-1.20.1-1.0.0.VISUAL.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/c02c1faa3944-weapon-aura-fabric-1.20.1-1.0.0.VISUAL.jar",
       "size": 46503,
       "sha256": "a554dbefd8dddf5793497b267e3815733c51a2dcd05ca7f7e590d9f58aa6428b"
     },
     {
       "path": "mods/zfastnoise-1.0.13+1.20.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.7/6f0339912950-zfastnoise-1.0.13%2B1.20.jar",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/6f0339912950-zfastnoise-1.0.13%2B1.20.jar",
       "size": 35442,
       "sha256": "044809710b0c04a677771bf2ba7f8ef28acda25ba4aa515442667583d2fcb445"
     }

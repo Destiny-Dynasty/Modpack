@@ -3,5 +3,16 @@
   "id": "destiny",
   "exclude": [],
   "include": [],
-  "overrides": []
+  "overrides": [
+    {
+      "path": "mods/destiny-realms.jar",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "asset": "destiny-realms-*.jar",
+        "release": "latest",
+        "channel": "destiny-realms"
+      },
+      "modId": "destinydynasty"
+    }
+  ]
 }
