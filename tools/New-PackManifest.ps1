@@ -1,7 +1,7 @@
 [CmdletBinding(DefaultParameterSetName = 'Release')]
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet('destiny', 'destiny-lite')]
+    [ValidateSet('destiny', 'destiny-lite', 'destiny-staff')]
     [string]$PackId,
 
     [Parameter(Mandatory = $true)]

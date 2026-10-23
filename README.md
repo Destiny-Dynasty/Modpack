@@ -2,6 +2,10 @@
 
 Pack oficial de Destiny Dynasty para Minecraft Java, Fabric 1.20.1.
 
+## Variantes sobre una base común
+
+El mantenimiento actual utiliza un catálogo compartido en `base/manifest.json` y reglas en `variants/`. Destiny Lite conserva sus archivos actuales; Staff está preparado pero deshabilitado. Los JAR propios pueden publicarse aquí sin hacer público su código. Consulta [la guía de variantes, canales y publicación](docs/VARIANTS.md).
+
 ## Distribución
 
 Primera versión: **1.4.7** · Minecraft **1.20.1** · Fabric **0.16.9**.

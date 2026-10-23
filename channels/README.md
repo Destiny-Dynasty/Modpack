@@ -1,0 +1,1 @@
+Los archivos JSON de esta carpeta son punteros a JAR compilados públicos. Se generan con tools/Publish-ModRelease.ps1. El código de los mods permanece privado. Ver docs/VARIANTS.md.

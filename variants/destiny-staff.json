@@ -1,0 +1,8 @@
+{
+  "extends": "destiny",
+  "overrides": [],
+  "enabled": false,
+  "id": "destiny-staff",
+  "include": [],
+  "exclude": []
+}
