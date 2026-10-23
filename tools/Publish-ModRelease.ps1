@@ -53,6 +53,12 @@ if ($release.draft) {
     & gh release edit $tag --repo $repository --draft=false --prerelease=false
     if ($LASTEXITCODE) { throw 'Could not publish mod release. The channel remains unchanged.' }
 }
+# Draft asset URLs may contain GitHub's temporary untagged-* name. Resolve the
+# final public URL after publication, before exposing the channel to launchers.
+$release = & gh api $releaseInfo.apiUrl | ConvertFrom-Json
+if ($LASTEXITCODE -or $release.draft) { throw 'Could not verify the public mod release.' }
+$asset=@($release.assets | Where-Object {$_.name -eq $assetName -and $_.digest -eq "sha256:$hash" -and $_.size -eq $jar.Length})
+if ($asset.Count -ne 1 -or $asset[0].browser_download_url -notlike "https://github.com/$repository/releases/download/$tag/*") { throw 'Public release asset verification failed.' }
 $channel=@{draft=$false;prerelease=$false;tag_name=$tag;published_at=[DateTime]::UtcNow.ToString('O');assets=@(@{
     name=$assetName;size=[long]$jar.Length;digest="sha256:$hash";browser_download_url=$asset[0].browser_download_url
 })}

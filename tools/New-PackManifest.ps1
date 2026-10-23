@@ -70,6 +70,20 @@ function ConvertTo-GitHubReleaseAssetName([string]$Name) {
     return [regex]::Replace($normalized, '\.{2,}', '.')
 }
 
+function Add-FabricModId($Entry, $File) {
+    if ($Entry.path -notlike 'mods/*.jar') { return }
+    $zip = [IO.Compression.ZipFile]::OpenRead($File.FullName)
+    try {
+        $metadata = $zip.GetEntry('fabric.mod.json')
+        if ($metadata) {
+            if ($metadata.Length -gt 1048576) { throw 'Fabric metadata is unexpectedly large.' }
+            $reader = [IO.StreamReader]::new($metadata.Open())
+            try { $mod = $reader.ReadToEnd() | ConvertFrom-Json; if ($mod.id) { $Entry.modId = $mod.id } }
+            finally { $reader.Dispose() }
+        }
+    } finally { $zip.Dispose() }
+}
+
 if (Test-Path -LiteralPath $outRoot) {
     $existingOutput = Get-ChildItem -LiteralPath $outRoot -Force | Select-Object -First 1
     if ($null -ne $existingOutput) {
@@ -107,6 +121,7 @@ foreach ($rootName in $managedRoots) {
                 sha256 = $fileHash
             }
             if ($sourceOverrides[$relative].source) { $entry.source = $sourceOverrides[$relative].source }
+            Add-FabricModId $entry $sourceFile
             $files.Add($entry)
             continue
         }
@@ -122,6 +137,7 @@ foreach ($rootName in $managedRoots) {
                 sha256 = $fileHash
             }
             if ($previousFiles[$relative].source) { $entry.source = $previousFiles[$relative].source }
+            Add-FabricModId $entry $sourceFile
             $files.Add($entry)
             continue
         }
@@ -149,12 +165,14 @@ foreach ($rootName in $managedRoots) {
             Copy-Item -LiteralPath $sourceFile.FullName -Destination $assetPath
         }
         $downloadUrl = "$fileBaseUrl/$([System.Uri]::EscapeDataString($assetName))"
-        $files.Add([ordered]@{
+        $entry = [ordered]@{
             path = $relative
             url = $downloadUrl
             size = [long]$sourceFile.Length
             sha256 = $fileHash
-        })
+        }
+        Add-FabricModId $entry $sourceFile
+        $files.Add($entry)
     }
 }
 
