@@ -10,7 +10,7 @@ El launcher no incluye tokens ni credenciales de GitHub.
 base/manifest.json          # catálogo completo del pack normal
 variants/destiny.json       # reglas de la variante normal
 variants/destiny-lite.json  # herencia, exclusiones, inclusiones y sustituciones
-variants/destiny-staff.json # preparado, deshabilitado hasta definir acceso/contenido
+variants/destiny-staff.json # normal + Axiom 6.1.3 fijado para Fabric 1.20.1
 extras/lite/mods/...        # JAR exclusivos de Lite, si se proporcionan localmente
 overrides/lite/config/...   # configuraciones específicas
 channels/<mod-id>.json      # punteros públicos a releases de cada mod propio
@@ -18,7 +18,7 @@ manifests/*.json            # resultados completos que consume el launcher
 ```
 
 Las carpetas de instancias siguen separadas: Destiny, Destiny-Lite y Destiny-Staff.
-Staff aún no aparece en la interfaz; el bot y la habilitación de usuarios siguen pendientes.
+Staff aparece en el launcher tras vincular Discord y verificar un rol autorizado mediante Destiny Bot. Hereda todo Destiny y añade Axiom 6.1.3 para Fabric 1.20.1 mediante una URL fija del CDN oficial de Modrinth, con tamaño y SHA-256; no usa latest. No se redistribuye el JAR en este repositorio.
 
 Ejemplo de definición de Lite:
 

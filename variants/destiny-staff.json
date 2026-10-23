@@ -1,8 +1,16 @@
 {
-  "extends": "destiny",
-  "overrides": [],
-  "enabled": false,
   "id": "destiny-staff",
-  "include": [],
-  "exclude": []
+  "enabled": true,
+  "extends": "destiny",
+  "exclude": [],
+  "include": [
+    {
+      "path": "mods/Axiom-6.1.3-for-MC1.20.1.jar",
+      "modId": "axiom",
+      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ABgvvd3Y/Axiom-6.1.3-for-MC1.20.1.jar",
+      "size": 47138394,
+      "sha256": "193e7ca39b4ee9e92bfc28d0e35d8b6e4f65730cb98f5815b9299c8b7249743f"
+    }
+  ],
+  "overrides": []
 }
