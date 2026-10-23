@@ -49,5 +49,12 @@ $lite.include=@('extras/lite/mods/performance.jar');$lite.exclude=@('mod:visual'
 Assert (-not ((Get-Content "$root/mod-id-exclusion/manifests/destiny-lite.json" -Raw|ConvertFrom-Json).files.path -contains 'mods/visual-1.0.jar')) 'Stable mod ID exclusions are supported when metadata is declared'
 Json "$root/releases.json" @{'Fixture/Custom@v1'=(Release 'v1');'Fixture/Custom@latest'=@{draft=$false;prerelease=$false;assets=@()}}
 Reject 'missing-release-asset'
+Json "$root/releases.json" @{'Fixture/Custom@v1'=(Release 'v1');'Fixture/Custom@latest'=(Release 'v2');'Fixture/Custom@latest/custom'=(Release 'v3')}
+$latest.github.channel='custom';Write-Definitions;Generate 'public-channel'
+$channel=(Get-Content "$root/public-channel/manifests/destiny.json" -Raw|ConvertFrom-Json).files|Where-Object path -eq 'mods/live.jar'
+Assert ($channel.github.channel -eq 'custom' -and $channel.url -like '*/v3/*') 'Public channels distinguish latest releases of mods hosted in one repository'
+$broken=Release 'v3';$broken.assets[0].browser_download_url=$broken.assets[0].browser_download_url.Replace('/v3/','/untagged-draft/')
+Json "$root/releases.json" @{'Fixture/Custom@v1'=(Release 'v1');'Fixture/Custom@latest/custom'=$broken}
+Reject 'stale-draft-asset-url'
 Json "$root/results.json" @{passed=$checks.Count;checks=@($checks)}
 Write-Host "PASS: $($checks.Count) variant publisher assertions; $root"

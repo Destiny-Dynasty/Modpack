@@ -71,7 +71,7 @@ function Get-GitHubEntry($Entry) {
     if (-not $metadata.ContainsKey($key)) {
         if ($ReleaseMetadataPath) { throw "Offline release metadata missing: $key" }
         $selector = if ($source.release -eq 'latest') { 'latest' } else { 'tags/' + [Uri]::EscapeDataString($source.release) }
-        $endpoint = if ($source.release -eq 'latest' -and $source.channel) { "https://raw.githubusercontent.com/$($source.repository)/main/channels/$($source.channel).json" } else { "https://api.github.com/repos/$($source.repository)/releases/$selector" }
+        $endpoint = if ($source.release -eq 'latest' -and $source.channel) { "https://raw.githubusercontent.com/$($source.repository)/main/channels/$($source.channel).json?check=$([guid]::NewGuid().ToString('N'))" } else { "https://api.github.com/repos/$($source.repository)/releases/$selector" }
         $metadata[$key] = Invoke-RestMethod $endpoint -Headers @{'User-Agent'='Destiny-Pack-Publisher';Accept='application/vnd.github+json';'X-GitHub-Api-Version'='2022-11-28'} -TimeoutSec 30 | ConvertTo-Json -Depth 30 | ConvertFrom-Json -AsHashtable
     }
     $release = $metadata[$key]
@@ -80,7 +80,8 @@ function Get-GitHubEntry($Entry) {
     $assets = @($release.assets | Where-Object { $pattern.IsMatch($_.name) -and $_.name -notmatch '-(sources|javadoc)\.jar$' })
     if ($assets.Count -ne 1) { throw "Asset selector must match exactly one asset: $key / $($source.asset)" }
     $asset = $assets[0]
-    $prefix = 'https://github.com/' + $source.repository + '/releases/download/'
+    if ([string]::IsNullOrWhiteSpace($release.tag_name) -or ($source.release -ne 'latest' -and $release.tag_name -cne $source.release)) { throw "Release tag does not match the requested version: $key" }
+    $prefix = 'https://github.com/' + $source.repository + '/releases/download/' + [Uri]::EscapeDataString($release.tag_name) + '/'
     if ($asset.digest -notmatch '^sha256:[a-fA-F0-9]{64}$' -or [long]$asset.size -le 0 -or -not $asset.browser_download_url.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) { throw "Release asset lacks a valid URL, size or SHA-256: $key" }
     $Entry.url = $asset.browser_download_url; $Entry.size = [long]$asset.size; $Entry.sha256 = $asset.digest.Substring(7).ToLowerInvariant()
     if ($source.release -ne 'latest') { $Entry.Remove('github') }
