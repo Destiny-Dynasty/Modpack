@@ -72,7 +72,7 @@ Desde un checkout limpio y actualizado de **Mod-Releases**:
 
 La versión y la ruta son ejemplos. Se publica un solo JAR, se verifica el digest y
 se actualiza el canal únicamente después. Nunca se sobrescriben builds publicadas.
-El comando no cambia la versión del pack. El mismo script está aquí por conveniencia,
+El comando no cambia la versión del pack. También se puede publicar una release estable desde GitHub con tag mod-<id>-<versión> y un único JAR <id>-<versión>.jar: el workflow de Mod-Releases actualiza su canal automáticamente. La sincronización verifica digest y es idempotente. El mismo script está aquí por conveniencia,
 pero exige un checkout de Mod-Releases como RepositoryRoot y rechaza Modpack.
 
 El repositorio privado puede usar `templates/publish-private-mod.yml`, adaptando
