@@ -1,6 +1,5 @@
 {
   "javaVersion": 21,
-  "packId": "destiny-staff",
   "files": [
     {
       "path": "config/betterhp_config.json",
@@ -904,16 +903,10 @@
     },
     {
       "path": "mods/Axiom-6.0.5-for-MC1.20.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/39c6c5db302b-Axiom-6.0.5-for-MC1.20.1.jar",
+      "modId": "axiom",
+      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ciQg9GUl/Axiom-6.0.5-for-MC1.20.1.jar",
       "size": 47163660,
       "sha256": "d96625a1b5e2317d4e5a5d87395cf1814654b9ccff4f5cbdbc45d12a0c947b82"
-    },
-    {
-      "path": "mods/Axiom-6.1.3-for-MC1.20.1.jar",
-      "modId": "axiom",
-      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ABgvvd3Y/Axiom-6.1.3-for-MC1.20.1.jar",
-      "size": 47138394,
-      "sha256": "193e7ca39b4ee9e92bfc28d0e35d8b6e4f65730cb98f5815b9299c8b7249743f"
     },
     {
       "path": "mods/azurelib-fabric-1.20.1-3.1.24.jar",
@@ -1433,7 +1426,8 @@
     },
     {
       "path": "mods/mightyarchitect-2.1.1+mc1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/destiny-1.4.8/e44bd42e5993-mightyarchitect-2.1.1%2Bmc1.20.1-fabric.jar",
+      "modId": "mightyarchitect",
+      "url": "https://cdn.modrinth.com/data/FDYDUHRw/versions/Ea4KYZrI/mightyarchitect-2.1.1%2Bmc1.20.1-fabric.jar",
       "size": 992715,
       "sha256": "ff184512171ca0eb272ec2076229d68f9040d7f71ec6ad0a1db17580863aa5af"
     },
@@ -2734,8 +2728,9 @@
       "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
     }
   ],
-  "schemaVersion": 1,
+  "minecraftVersion": "1.20.1",
+  "fabricLoaderVersion": "0.16.14",
   "version": "1.4.8",
-  "fabricLoaderVersion": "0.16.9",
-  "minecraftVersion": "1.20.1"
+  "schemaVersion": 1,
+  "packId": "destiny-staff"
 }

@@ -3,14 +3,22 @@
   "enabled": true,
   "extends": "destiny",
   "exclude": [],
-  "include": [
+  "include": [],
+  "overrides": [
     {
-      "path": "mods/Axiom-6.1.3-for-MC1.20.1.jar",
+      "path": "mods/Axiom-6.0.5-for-MC1.20.1.jar",
       "modId": "axiom",
-      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ABgvvd3Y/Axiom-6.1.3-for-MC1.20.1.jar",
-      "size": 47138394,
-      "sha256": "193e7ca39b4ee9e92bfc28d0e35d8b6e4f65730cb98f5815b9299c8b7249743f"
+      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ciQg9GUl/Axiom-6.0.5-for-MC1.20.1.jar",
+      "size": 47163660,
+      "sha256": "d96625a1b5e2317d4e5a5d87395cf1814654b9ccff4f5cbdbc45d12a0c947b82"
+    },
+    {
+      "path": "mods/mightyarchitect-2.1.1+mc1.20.1-fabric.jar",
+      "modId": "mightyarchitect",
+      "url": "https://cdn.modrinth.com/data/FDYDUHRw/versions/Ea4KYZrI/mightyarchitect-2.1.1%2Bmc1.20.1-fabric.jar",
+      "size": 992715,
+      "sha256": "ff184512171ca0eb272ec2076229d68f9040d7f71ec6ad0a1db17580863aa5af"
     }
   ],
-  "overrides": []
+  "fabricLoaderVersion": "0.16.14"
 }
