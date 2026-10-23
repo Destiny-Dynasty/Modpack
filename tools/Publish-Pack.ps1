@@ -12,7 +12,8 @@ param(
 
     [string]$SourceOverridesPath,
     [string]$MinecraftVersion = '1.20.1',
-    [string]$FabricLoaderVersion = '0.16.9'
+    [string]$FabricLoaderVersion = '0.16.9',
+    [ValidateRange(17,99)][int]$JavaVersion = 21
 )
 
 $ErrorActionPreference = 'Stop'
@@ -72,7 +73,8 @@ try {
         '-OutputDirectory', $outputRoot,
         '-PreviousManifestPath', $manifestPath,
         '-MinecraftVersion', $MinecraftVersion,
-        '-FabricLoaderVersion', $FabricLoaderVersion
+        '-FabricLoaderVersion', $FabricLoaderVersion,
+        '-JavaVersion', $JavaVersion
     )
     if ($SourceOverridesPath) {
         $resolvedOverrides = (Resolve-Path -LiteralPath $SourceOverridesPath).Path

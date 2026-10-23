@@ -4,6 +4,7 @@
   "version": "1.4.8",
   "minecraftVersion": "1.20.1",
   "fabricLoaderVersion": "0.16.9",
+  "javaVersion": 21,
   "files": [
     {
       "path": "mods/adventurez-1.4.20(MOBS).jar",
