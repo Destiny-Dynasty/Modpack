@@ -48,7 +48,7 @@ Destiny Dynasty está configurado como override del pack normal y se hereda tamb
 ```
 
 El canal es obligatorio para distinguir cada mod en este repositorio compartido.
-No utilizar `/releases/latest` del repositorio completo. Combat 0.1.1+ef20.14.17 usa la ruta estable mods/destiny-combat.jar y una URL fija, compartida entre las tres variantes; no usa latest. Destiny Dynasty tiene como snapshot actual la release 0.1.1. La primera build de Destiny Dynasty
+No utilizar `/releases/latest` del repositorio completo. Combat usa la ruta estable `mods/destiny-combat.jar` y sigue `latest` del canal `destiny-combat`, compartido entre las tres variantes. Su snapshot es 0.1.1+ef20.14.17. Destiny Dynasty tiene como snapshot actual la release 0.1.1. La primera build de Destiny Dynasty
 es la importada del pack normal existente, sin recompilar el HEAD privado.
 
 El compositor genera schemaVersion 2 y una instantánea con URL, tamaño y SHA-256.

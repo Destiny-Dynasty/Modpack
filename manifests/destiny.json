@@ -1103,7 +1103,13 @@
       "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-combat-0.1.1-ef20.14.17/destiny-combat-0.1.1-ef20.14.17.jar",
       "size": 3606697,
       "sha256": "76459030797212397e0b7e701a83f704eaf992b937adcae3741cb01f77831dce",
-      "modId": "destinycombat"
+      "modId": "destinycombat",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "destiny-combat",
+        "asset": "destiny-combat-*.jar"
+      }
     },
     {
       "path": "mods/destiny-dynasty-kingdoms-0.3.0-studio.20.jar",

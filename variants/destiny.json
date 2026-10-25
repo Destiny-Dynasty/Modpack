@@ -13,6 +13,16 @@
         "channel": "destiny-dynasty"
       },
       "modId": "destinydynasty"
+    },
+    {
+      "path": "mods/destiny-combat.jar",
+      "modId": "destinycombat",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "destiny-combat",
+        "asset": "destiny-combat-*.jar"
+      }
     }
   ]
 }
