@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packId": "destiny",
-  "version": "2026.0.1-alpha.2",
+  "version": "2026.0.1-alpha.3",
   "minecraftVersion": "1.20.1",
   "fabricLoaderVersion": "0.19.5",
   "javaVersion": 21,
@@ -1120,10 +1120,10 @@
       "modId": "destinydynasty"
     },
     {
-      "path": "mods/destinygremio-1.3.2.jar",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destinygremio-1.3.2/destinygremio-1.3.2.jar",
-      "size": 582642,
-      "sha256": "825706ccd17faf2115d06d7cbf738171ad3ad1af43e506479d35cf390714e244",
+      "path": "mods/destinygremio-1.3.2-client.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destinygremio-1.3.2-client/destinygremio-client-1.3.2.jar",
+      "size": 585472,
+      "sha256": "15643c8c7e1a8afae89984503a739af201fdf2c9a354b2379dbfb8385c191150",
       "modId": "destinygremio"
     },
     {
