@@ -8,7 +8,8 @@
       "path": "mods/destiny-dynasty-kingdoms-0.3.0-studio.12.jar",
       "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-dynasty-kingdoms-lite-0.3.0-studio.12/dynasty-kingdoms-lite-0.3.0-studio.12.jar",
       "size": 51971881,
-      "sha256": "c754844e27d7ac8eb62503ca5091541d4179636d55af30182d052c04b15429c2"
+      "sha256": "c754844e27d7ac8eb62503ca5091541d4179636d55af30182d052c04b15429c2",
+      "modId": "destinykingdoms"
     },
     {
       "path": "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
@@ -29,7 +30,7 @@
     "mods/azurelib-fabric*.jar",
     "mods/craftedcore*.jar",
     "mods/cristellib*.jar",
-    "mods/destiny-dynasty-kingdoms-0.3.0-studio.20.jar",
+    "mods/destiny-dynasty-factions-0.3.0-studio.27.jar",
     "mods/DistantHorizons*.jar",
     "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric (LIBRERÍA).jar",
     "mods/geckolib-fabric-1.20.1-4.8.4 (LIBRERÍA ANIMACIONES).jar",

@@ -1,6 +1,6 @@
 # Destiny Dynasty — Modpacks
 
-Release actual: **2026.0.1-alpha** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
+Release de assets: **2026.0.1-alpha** · Manifiestos del launcher: **2026.0.1-alpha.2** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
 
 Destiny, Destiny Lite y Destiny Staff se generan desde una base común. Lite aplica
 exclusiones y archivos específicos; Staff requiere autorización de Discord en el launcher.

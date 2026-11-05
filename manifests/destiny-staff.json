@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "packId": "destiny-staff",
-  "version": "2026.0.1-alpha",
+  "version": "2026.0.1-alpha.2",
   "minecraftVersion": "1.20.1",
   "fabricLoaderVersion": "0.19.5",
   "javaVersion": 21,
@@ -1113,10 +1113,10 @@
       }
     },
     {
-      "path": "mods/destiny-dynasty-kingdoms-0.3.0-studio.20.jar",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-dynasty-kingdoms-0.3.0-studio.20/dynasty-kingdoms-0.3.0-studio.20.jar",
-      "size": 52181728,
-      "sha256": "e47eb1d8bd0436701029b5b280cb6b98f15cc071952b42351772a1edca6fe4ca"
+      "path": "mods/destiny-dynasty-factions-0.3.0-studio.27.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destinykingdoms-0.3.0-studio.27/destinykingdoms-0.3.0-studio.27.jar",
+      "size": 65610672,
+      "sha256": "5634e85b4f9f3755bddec8aeff6cb8303d7fb57e265ac5f19facce5962e1f540"
     },
     {
       "path": "mods/destiny-dynasty.jar",
@@ -1130,6 +1130,12 @@
       "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-dynasty-0.1.1/destiny-dynasty-0.1.1.jar",
       "size": 24179474,
       "sha256": "ed6303391b50bdbe6841e82987a773516438d5cd047f05a0c7e758b97da49dba"
+    },
+    {
+      "path": "mods/destinygremio-1.3.2.jar",
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destinygremio-1.3.2/destinygremio-1.3.2.jar",
+      "size": 582642,
+      "sha256": "825706ccd17faf2115d06d7cbf738171ad3ad1af43e506479d35cf390714e244"
     },
     {
       "path": "mods/DistantHorizons-3.3.3-1.20.1-fabric-forge.jar",
