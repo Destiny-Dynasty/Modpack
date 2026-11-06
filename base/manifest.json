@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packId": "destiny",
-  "version": "2026.0.1-alpha.4",
+  "version": "2026.0.1-alpha.5",
   "minecraftVersion": "1.20.1",
   "fabricLoaderVersion": "0.19.5",
   "javaVersion": 21,
@@ -1097,13 +1097,6 @@
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/819cef833b4d-Data_Anchor-fabric-1.20.1-1.0.0.23.jar",
       "size": 122341,
       "sha256": "946e6c8a5b5969b5303c43f49c79319cce18eba3d61aa3d9fefd88e82e75944d"
-    },
-    {
-      "path": "mods/destiny-axiom-tools-0.2.0-alpha.1.jar",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-axiom-tools-0.2.0-alpha.1/destiny-axiom-tools-0.2.0-alpha.1.jar",
-      "size": 146765,
-      "sha256": "e92f55a133b03894bb5b8a72c94dfdcae785ad3e556cd43bfd6dd0b85043f69c",
-      "modId": "destiny_axiom_tools"
     },
     {
       "path": "mods/destiny-combat.jar",

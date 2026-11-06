@@ -3,7 +3,15 @@
   "enabled": true,
   "extends": "destiny",
   "exclude": [],
-  "include": [],
+  "include": [
+    {
+      "path": "mods/destiny-axiom-tools-0.3.0-alpha.1.jar",
+      "url": "https://raw.githubusercontent.com/Destiny-Dynasty/Mod-Releases/f4105e81060a7ccd2f8f71b17c87307aa072302c/artifacts/destiny-axiom-tools-0.3.0-alpha.1.jar",
+      "size": 175703,
+      "sha256": "2bc489dcc704ac7441cb041a5b65be80637971e80a479f14d38d69456337781d",
+      "modId": "destiny_axiom_tools"
+    }
+  ],
   "overrides": [
     {
       "path": "mods/Axiom-6.0.5-for-MC1.20.1.jar",
