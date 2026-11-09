@@ -1,6 +1,6 @@
 # Destiny Dynasty — Modpacks
 
-Release de assets: **2026.0.1-alpha** · Manifiestos del launcher: **2026.0.1-alpha.5** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
+Release de assets: **2026.0.1-alpha** · Manifiestos del launcher: **2026.0.1-alpha.6** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
 
 Destiny, Destiny Lite y Destiny Staff se generan desde una base común. Lite aplica
 exclusiones y archivos específicos; Staff requiere autorización de Discord en el launcher.
@@ -30,7 +30,7 @@ Los mods propios se publican en **Mod-Releases**, cada uno con su canal. Destiny
 la misma build de Destiny Dynasty entre las tres variantes. Combat se comparte entre las tres variantes y sigue `latest` del canal `destiny-combat`; su snapshot actual es 0.1.1+ef20.14.17. Kingdoms conserva sus
 builds específicas por variante y están fijados a sus assets publicados.
 
-Staff incluye Destiny Axiom Tools **0.3.0-alpha.1** y mantiene Axiom **6.0.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,
+Staff incluye Destiny Axiom Tools **0.4.0-alpha.2** y mantiene Axiom **6.1.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,
 sin actualizaciones flotantes de esos dos mods.
 
 Las preferencias, mundos, capturas y mods de terceros del jugador se conservan.

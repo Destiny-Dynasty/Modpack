@@ -2,24 +2,26 @@
   "id": "destiny-staff",
   "enabled": true,
   "extends": "destiny",
-  "exclude": [],
+  "exclude": [
+    "mods/Axiom-6.0.5-for-MC1.20.1.jar"
+  ],
   "include": [
     {
-      "path": "mods/destiny-axiom-tools-0.3.0-alpha.1.jar",
-      "url": "https://raw.githubusercontent.com/Destiny-Dynasty/Mod-Releases/f4105e81060a7ccd2f8f71b17c87307aa072302c/artifacts/destiny-axiom-tools-0.3.0-alpha.1.jar",
-      "size": 175703,
-      "sha256": "2bc489dcc704ac7441cb041a5b65be80637971e80a479f14d38d69456337781d",
+      "path": "mods/Axiom-6.1.5-for-MC1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/rhzVjv9n/Axiom-6.1.5-for-MC1.20.1.jar",
+      "size": 47142832,
+      "sha256": "4efd5d0250167a29f3b9cabe42e81c1d33ba186d4b4d06cddd673dfe15c816d8",
+      "modId": "axiom"
+    },
+    {
+      "path": "mods/destiny-axiom-tools-0.4.0-alpha.2.jar",
+      "url": "https://raw.githubusercontent.com/Destiny-Dynasty/Mod-Releases/8e5dd5ea2996b6be8c89a4b31aa276fa7d4a0c20/artifacts/destiny-axiom-tools-0.4.0-alpha.2.jar",
+      "size": 200982,
+      "sha256": "64ccf39032ff998683e3f58f5ac57a430bdd9b14ebde245a994e30a04f2057b5",
       "modId": "destiny_axiom_tools"
     }
   ],
   "overrides": [
-    {
-      "path": "mods/Axiom-6.0.5-for-MC1.20.1.jar",
-      "modId": "axiom",
-      "url": "https://cdn.modrinth.com/data/N6n5dqoA/versions/ciQg9GUl/Axiom-6.0.5-for-MC1.20.1.jar",
-      "size": 47163660,
-      "sha256": "d96625a1b5e2317d4e5a5d87395cf1814654b9ccff4f5cbdbc45d12a0c947b82"
-    },
     {
       "path": "mods/mightyarchitect-2.1.1+mc1.20.1-fabric.jar",
       "modId": "mightyarchitect",
