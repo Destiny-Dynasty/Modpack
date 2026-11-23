@@ -12,6 +12,16 @@
         "channel": "create-connected",
         "asset": "create-connected-*.jar"
       }
+    },
+    {
+      "path": "mods/destinycraft.jar",
+      "modId": "destinycraft",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "destinycraft",
+        "asset": "destinycraft-*.jar"
+      }
     }
   ],
   "overrides": [
