@@ -252,11 +252,11 @@
       "size": 235879
     },
     {
-      "path": "mods/createdeco-2.0.1-1.20.1-fabric.jar",
+      "path": "mods/createdeco-2.1.1-1.20.1-fabric.jar",
       "modId": "createdeco",
-      "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/TVEbvaBf/createdeco-2.0.1-1.20.1-fabric.jar",
-      "size": 2859016,
-      "sha256": "4ab5e1b45ae7f43867f3c94d507f0ff9613583a6083e35cf1eea2b163e536156"
+      "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/OHgy53E6/createdeco-2.1.1-1.20.1-fabric.jar",
+      "size": 3492044,
+      "sha256": "7a72ee9c8da0b478256263c1e75ad4541b902cffb3c314bdb91850ead6fcfd4a"
     },
     {
       "path": "mods/createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
