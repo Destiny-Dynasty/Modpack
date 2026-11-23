@@ -181,6 +181,19 @@
       "sha256": "8f680a5f9a8f725c5ececd26a28aad308b0e0daa35ef1538586974e80be6f791"
     },
     {
+      "path": "mods/create-connected.jar",
+      "modId": "create_connected",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "create-connected",
+        "asset": "create-connected-*.jar"
+      },
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-create-connected-1.2.3/create-connected-1.2.3.jar",
+      "size": 6381397,
+      "sha256": "b7aa717cd78f11dc356d43183d5ca7e05d5e42a55c763c07c0284ecc6caf0ce4"
+    },
+    {
       "path": "mods/create-fabric-6.0.8.1+build.1744-mc1.20.1.jar",
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/be56e9b73de3-create-fabric-6.0.8.1%2Bbuild.1744-mc1.20.1.jar",
       "size": 32189889,

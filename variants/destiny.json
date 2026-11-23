@@ -2,7 +2,18 @@
   "enabled": true,
   "id": "destiny",
   "exclude": [],
-  "include": [],
+  "include": [
+    {
+      "path": "mods/create-connected.jar",
+      "modId": "create_connected",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "create-connected",
+        "asset": "create-connected-*.jar"
+      }
+    }
+  ],
   "overrides": [
     {
       "path": "mods/destiny-dynasty.jar",
