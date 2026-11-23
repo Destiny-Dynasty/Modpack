@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "packId": "destiny",
-  "version": "2026.0.1-alpha.6",
+  "version": "2026.0.1-alpha.7",
   "minecraftVersion": "1.20.1",
   "fabricLoaderVersion": "0.19.5",
   "javaVersion": 21,
@@ -1027,6 +1027,13 @@
       "sha256": "2becb88c266dc9e1d341b6f92667d002c02affca396e942ccf6c7996c2c891a9"
     },
     {
+      "path": "mods/copycats-3.0.10+mc.1.20.1-fabric.jar",
+      "modId": "copycats",
+      "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/E0aagkjc/copycats-3.0.10%2Bmc.1.20.1-fabric.jar",
+      "size": 2004438,
+      "sha256": "c952e987ac3b9ee409e5c64ff2c0ef0d0762d1c742bbed251becd97751737049"
+    },
+    {
       "path": "mods/Corgilib-Fabric-1.20.1-4.0.3.6.jar",
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/7a1a33d5b35d-Corgilib-Fabric-1.20.1-4.0.3.6.jar",
       "size": 700309,
@@ -1050,6 +1057,12 @@
       "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-create-bits-n-bobs-0.0.41-fabric.1/create-bits-n-bobs-0.0.41-fabric.1.jar",
       "size": 1583216,
       "sha256": "04ded207ba6b4f7a6eb6d0b3b299128323d21bdf286b3955df9346428cc95c0f"
+    },
+    {
+      "sha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03",
+      "path": "mods/create-cobblestone-LICENSE.txt",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha.7/6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03.txt",
+      "size": 7047
     },
     {
       "path": "mods/create-connected.jar",
@@ -1084,9 +1097,24 @@
     },
     {
       "path": "mods/createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
-      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/8521b4d00358-createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
+      "modId": "createbigcannons",
+      "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/rqMUlH4I/createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
       "size": 6346405,
       "sha256": "99e544c07ccca03bb20998b23dcaf99af91cb806b9fefb3df965f8d8cdeda3ec"
+    },
+    {
+      "sha256": "5b15816acf54d843459404ac72a3a1fe7dd8b6d15d790b5e88c34fab9e606b7a",
+      "path": "mods/createcobblestone-1.5.1+fabric-1.20.1-163.jar",
+      "modId": "createcobblestone",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha.7/5b15816acf54d843459404ac72a3a1fe7dd8b6d15d790b5e88c34fab9e606b7a.jar",
+      "size": 235879
+    },
+    {
+      "path": "mods/createdeco-2.0.1-1.20.1-fabric.jar",
+      "modId": "createdeco",
+      "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/TVEbvaBf/createdeco-2.0.1-1.20.1-fabric.jar",
+      "size": 2859016,
+      "sha256": "4ab5e1b45ae7f43867f3c94d507f0ff9613583a6083e35cf1eea2b163e536156"
     },
     {
       "path": "mods/createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
@@ -1126,22 +1154,23 @@
     },
     {
       "path": "mods/destiny-combat.jar",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-combat-0.1.1-ef20.14.17/destiny-combat-0.1.1-ef20.14.17.jar",
-      "size": 3606697,
-      "sha256": "76459030797212397e0b7e701a83f704eaf992b937adcae3741cb01f77831dce",
       "modId": "destinycombat",
       "github": {
         "repository": "Destiny-Dynasty/Mod-Releases",
         "release": "latest",
         "channel": "destiny-combat",
         "asset": "destiny-combat-*.jar"
-      }
+      },
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-combat-0.2.11-ef20.14.17/destiny-combat-0.2.11-ef20.14.17.jar",
+      "size": 3645120,
+      "sha256": "852ed8285baf3710314bd2d2f02aac619736f4201c0b14811b53af9f38cadbd1"
     },
     {
       "path": "mods/destiny-dynasty-factions-0.3.0-studio.27.jar",
       "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destinykingdoms-0.3.0-studio.27/destinykingdoms-0.3.0-studio.27.jar",
       "size": 65610672,
-      "sha256": "5634e85b4f9f3755bddec8aeff6cb8303d7fb57e265ac5f19facce5962e1f540"
+      "sha256": "5634e85b4f9f3755bddec8aeff6cb8303d7fb57e265ac5f19facce5962e1f540",
+      "modId": "destinykingdoms"
     },
     {
       "path": "mods/destiny-dynasty.jar",
@@ -1152,9 +1181,9 @@
         "channel": "destiny-dynasty"
       },
       "modId": "destinydynasty",
-      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-dynasty-0.1.1/destiny-dynasty-0.1.1.jar",
-      "size": 24179474,
-      "sha256": "ed6303391b50bdbe6841e82987a773516438d5cd047f05a0c7e758b97da49dba"
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-destiny-dynasty-0.23.10/destiny-dynasty-0.23.10.jar",
+      "size": 40652796,
+      "sha256": "1e3d6b69f1153223156f72c716cb91a8fa8e2b66bec40d552b018edeabcc4f6e"
     },
     {
       "path": "mods/destinycraft.jar",
@@ -1747,6 +1776,12 @@
       "sha256": "1fcf3a2c856a874826996d6eab884b5fbff378ecc35ae808cbba0dbd02f92ad0"
     },
     {
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "path": "mods/steam-n-rails-LICENSE.txt",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha.7/e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118.txt",
+      "size": 7652
+    },
+    {
       "path": "mods/Stellar.View-1.20.1-0.5.3-Fabric (VISUAL).jar",
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/144abeddd437-Stellar.View-1.20.1-0.5.3-Fabric.VISUAL.jar",
       "size": 1265874,
@@ -1781,6 +1816,12 @@
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/b9e21219ad56-TerraBlender-fabric-1.20.1-3.0.1.10.LIBRERIA.jar",
       "size": 322357,
       "sha256": "23f32e77d84279ce38747141b3ef67d8c5dadaf0f198c2e6f69f15eb40bdeb55"
+    },
+    {
+      "sha256": "ff2887a677e5d0c9a9391e4ba6e409fa7a7d7392b7886d16770519cfe79e3aaf",
+      "path": "mods/THIRD_PARTY_SOURCE_NOTICES.txt",
+      "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha.7/ff2887a677e5d0c9a9391e4ba6e409fa7a7d7392b7886d16770519cfe79e3aaf.txt",
+      "size": 1934
     },
     {
       "path": "mods/ToadLib-1.20-1.20.1-1.3.7.1.jar",
