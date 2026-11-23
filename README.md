@@ -1,11 +1,11 @@
 # Destiny Dynasty — Modpacks
 
-Release de assets: **2026.0.1-alpha** · Manifiestos del launcher: **2026.0.1-alpha.6** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
+Release de assets y manifiestos del launcher: **2026.0.1-alpha.7** · Minecraft **1.20.1** · Fabric Loader **0.19.5** · Java **21**.
 
 Destiny, Destiny Lite y Destiny Staff se generan desde una base común. Lite aplica
 exclusiones y archivos específicos; Staff requiere autorización de Discord en el launcher.
 
-- [Release actual](https://github.com/Destiny-Dynasty/Modpack/releases/tag/modpack-2026.0.1-alpha)
+- [Release actual](https://github.com/Destiny-Dynasty/Modpack/releases/tag/modpack-2026.0.1-alpha.7)
 - [Destiny](https://raw.githubusercontent.com/Destiny-Dynasty/Modpack/main/manifests/destiny.json)
 - [Destiny Lite](https://raw.githubusercontent.com/Destiny-Dynasty/Modpack/main/manifests/destiny-lite.json)
 - [Destiny Staff](https://raw.githubusercontent.com/Destiny-Dynasty/Modpack/main/manifests/destiny-staff.json)
@@ -32,6 +32,12 @@ builds específicas por variante y están fijados a sus assets publicados.
 
 Staff incluye Destiny Axiom Tools **0.4.0-alpha.2** y mantiene Axiom **6.1.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,
 sin actualizaciones flotantes de esos dos mods.
+
+Alpha.7 añade Create Cobblestone **1.5.1**, y fija Create Big Cannons **5.11.4**,
+Create: Copycats+ **3.0.10** y Create Deco **2.0.1** a sus archivos upstream concretos.
+Copycats, Big Cannons y Deco no usan `latest`; cambiar estas versiones requiere editar
+los manifiestos de forma explícita. Los avisos y licencias correspondientes se instalan
+en `mods/` junto a los addons.
 
 Las preferencias, mundos, capturas y mods de terceros del jugador se conservan.
 Reparar es la acción explícita para restaurar archivos modificados o borrados.
