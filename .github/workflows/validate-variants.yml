@@ -1,7 +1,7 @@
 name: Validate shared modpack variants
 on:
   push:
-    paths: ['base/**', 'variants/**', 'extras/**', 'overrides/**', 'channels/**', 'tools/**']
+    paths: ['.github/workflows/**', 'base/**', 'variants/**', 'extras/**', 'overrides/**', 'channels/**', 'manifests/**', 'tools/**']
   pull_request:
 permissions:
   contents: read
