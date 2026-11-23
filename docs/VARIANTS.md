@@ -61,6 +61,19 @@ Publicar en el canal solo builds compatibles con Minecraft, Java, Fabric y depen
 Para fijar un mod: usar su tag exacto en `release`, sin `channel`. El compositor
 resuelve la URL y el checksum al publicar; no se comprueba latest durante el juego.
 
+## Addons de terceros fijados (alpha.7)
+
+Los manifiestos de `2026.0.1-alpha.7` fijan Create Big Cannons `5.11.4`,
+Create: Copycats+ `3.0.10+mc.1.20.1-fabric` y Create Deco `2.0.1-1.20.1-fabric`
+a URLs de archivos de versión concretos en Modrinth, con tamaño y SHA-256. No usan
+`latest` ni un canal. Para cambiar cualquiera, elegir y revisar expresamente la nueva
+versión, URL, licencia y digest en los tres manifiestos generados.
+
+Create Cobblestone `1.5.1+fabric-1.20.1-163` se conserva como asset del pack bajo CC0.
+Steam 'n' Rails y Create Railways Navigator ya estaban en el pack con las versiones
+fijadas del manifiesto; alpha.7 conserva esos JAR y distribuye también sus avisos de
+licencia/fuente en `mods/`.
+
 ## Publicar un mod
 
 Desde un checkout limpio y actualizado de **Mod-Releases**:

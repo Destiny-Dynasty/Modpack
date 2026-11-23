@@ -32,7 +32,25 @@
         "channel": "create-bits-n-bobs",
         "asset": "create-bits-n-bobs-*.jar"
       }
-    }
+    },
+    {
+      "path": "mods/copycats-3.0.10+mc.1.20.1-fabric.jar",
+      "modId": "copycats",
+      "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/E0aagkjc/copycats-3.0.10%2Bmc.1.20.1-fabric.jar",
+      "size": 2004438,
+      "sha256": "c952e987ac3b9ee409e5c64ff2c0ef0d0762d1c742bbed251becd97751737049"
+    },
+    "extras/destiny/mods/createcobblestone-1.5.1+fabric-1.20.1-163.jar",
+    {
+      "path": "mods/createdeco-2.0.1-1.20.1-fabric.jar",
+      "modId": "createdeco",
+      "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/TVEbvaBf/createdeco-2.0.1-1.20.1-fabric.jar",
+      "size": 2859016,
+      "sha256": "4ab5e1b45ae7f43867f3c94d507f0ff9613583a6083e35cf1eea2b163e536156"
+    },
+    "extras/destiny/mods/steam-n-rails-LICENSE.txt",
+    "extras/destiny/mods/create-cobblestone-LICENSE.txt",
+    "extras/destiny/mods/THIRD_PARTY_SOURCE_NOTICES.txt"
   ],
   "overrides": [
     {
@@ -54,6 +72,13 @@
         "channel": "destiny-combat",
         "asset": "destiny-combat-*.jar"
       }
+    },
+    {
+      "path": "mods/createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
+      "modId": "createbigcannons",
+      "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/rqMUlH4I/createbigcannons-5.11.4-mc.1.20.1-fabric.jar",
+      "size": 6346405,
+      "sha256": "99e544c07ccca03bb20998b23dcaf99af91cb806b9fefb3df965f8d8cdeda3ec"
     }
   ]
 }

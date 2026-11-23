@@ -1,0 +1,35 @@
+Destiny Dynasty modpack alpha.7 — third-party mod notices
+
+Create: Steam 'n' Rails 1.7.3+fabric-mc1.20.1
+License: GNU LGPL version 3. The license text is in steam-n-rails-LICENSE.txt.
+Source: https://github.com/Layers-of-Railways/Railway/tree/1.20/dev
+Upstream build: https://modrinth.com/mod/create-steam-n-rails/version/eUas7aWK
+
+Create Cobblestone 1.5.1+fabric-1.20.1-163
+License: CC0 1.0 Universal. The license text is in create-cobblestone-LICENSE.txt.
+Source: https://github.com/StickyPiston-development/CreateCobblestone
+Upstream build: https://modrinth.com/mod/create-cobblestone/version/6MeHYpqq
+
+Create Railways Navigator 1.20.1-beta-0.10.0-C6
+The unmodified JAR includes its LGPL-3.0 license, Jetty EPL-2.0 license, and NOTICE.txt.
+Source: https://github.com/MisterJulsen/Create-Train-Navigator
+Upstream build: https://modrinth.com/mod/create-railways-navigator/version/x0rIINJP
+
+Create Big Cannons 5.11.4
+Mixed MIT and CC BY-NC-SA licensing. Alpha.7 downloads the exact upstream build directly.
+Source and license details: https://github.com/Cannoneers-of-Create/CreateBigCannons
+Upstream build: https://modrinth.com/mod/create-big-cannons/version/rqMUlH4I
+
+Create: Copycats+ 3.0.10+mc.1.20.1-fabric
+All Rights Reserved. The JAR is not mirrored in this pack; it is downloaded from the exact upstream version.
+Source: https://github.com/copycats-plus/copycats
+Upstream build: https://modrinth.com/mod/copycats/version/E0aagkjc
+
+Create Deco 2.0.1-1.20.1-fabric
+The JAR metadata, CurseForge page, Modrinth project, and current source repository report inconsistent licenses.
+The JAR is not mirrored; alpha.7 downloads the exact upstream version pending clarification for this build.
+Source: https://github.com/talrey/CreateDeco
+Upstream build: https://modrinth.com/mod/create-deco/version/TVEbvaBf
+
+These upstream builds are fixed to the listed versions in the alpha.7 manifests.
+They do not use a latest-version selector.
