@@ -1039,6 +1039,19 @@
       "sha256": "626ccadc841289ecdddb6faf67979d64250d05364e6bb33318fe0cad3ada407c"
     },
     {
+      "path": "mods/create-bits-n-bobs.jar",
+      "modId": "bits_n_bobs",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "create-bits-n-bobs",
+        "asset": "create-bits-n-bobs-*.jar"
+      },
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-create-bits-n-bobs-0.0.41-fabric.1/create-bits-n-bobs-0.0.41-fabric.1.jar",
+      "size": 1583216,
+      "sha256": "04ded207ba6b4f7a6eb6d0b3b299128323d21bdf286b3955df9346428cc95c0f"
+    },
+    {
       "path": "mods/create-connected.jar",
       "modId": "create_connected",
       "github": {

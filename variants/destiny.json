@@ -22,6 +22,16 @@
         "channel": "destinycraft",
         "asset": "destinycraft-*.jar"
       }
+    },
+    {
+      "path": "mods/create-bits-n-bobs.jar",
+      "modId": "bits_n_bobs",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "create-bits-n-bobs",
+        "asset": "create-bits-n-bobs-*.jar"
+      }
     }
   ],
   "overrides": [
