@@ -26,6 +26,7 @@
   ],
   "exclude": [
     "config/*",
+    "mod:cinematic",
     "mods/AmbientSounds_FABRIC*.jar",
     "mods/azurelib-fabric*.jar",
     "mods/craftedcore*.jar",

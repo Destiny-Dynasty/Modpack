@@ -4,6 +4,16 @@
   "exclude": [],
   "include": [
     {
+      "path": "mods/cinematic-interactions.jar",
+      "modId": "cinematic",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "cinematic-interactions",
+        "asset": "cinematic-interactions-*.jar"
+      }
+    },
+    {
       "path": "mods/create-connected.jar",
       "modId": "create_connected",
       "github": {

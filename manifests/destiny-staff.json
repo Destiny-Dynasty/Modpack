@@ -974,6 +974,19 @@
       "sha256": "ab3bb261662b1c928b2aab29ec9e1eeb48eeb166726f65a35a4a83a8415fe4f4"
     },
     {
+      "path": "mods/cinematic-interactions.jar",
+      "modId": "cinematic",
+      "github": {
+        "repository": "Destiny-Dynasty/Mod-Releases",
+        "release": "latest",
+        "channel": "cinematic-interactions",
+        "asset": "cinematic-interactions-*.jar"
+      },
+      "url": "https://github.com/Destiny-Dynasty/Mod-Releases/releases/download/mod-cinematic-interactions-0.18.28-destiny-aw.1/cinematic-interactions-0.18.28-destiny-aw.1.jar",
+      "size": 1209400,
+      "sha256": "379ee14a6ec65f43adc40fc26ccd4cee9407541f110b8713e3b72983de236a31"
+    },
+    {
       "path": "mods/cinematiczoom-1.20.1-1.3.jar",
       "url": "https://github.com/Destiny-Dynasty/Modpack/releases/download/modpack-2026.0.1-alpha/2c21be527bf1-cinematiczoom-1.20.1-1.3.jar",
       "size": 293318,

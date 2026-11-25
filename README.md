@@ -30,6 +30,9 @@ Los mods propios se publican en **Mod-Releases**, cada uno con su canal. Destiny
 la misma build de Destiny Dynasty entre las tres variantes. Combat se comparte entre las tres variantes y sigue `latest` del canal `destiny-combat`; su snapshot actual es 0.1.1+ef20.14.17. Kingdoms conserva sus
 builds específicas por variante y están fijados a sus assets publicados.
 
+Cinematic Interactions está incluido en Destiny y Staff mediante el canal propio
+`cinematic-interactions` con `latest`; Destiny Lite lo excluye.
+
 Staff incluye Destiny Axiom Tools **0.4.0-alpha.2** y mantiene Axiom **6.1.5** y The Mighty Architectury **2.1.1** para Fabric 1.20.1,
 sin actualizaciones flotantes de esos dos mods.
 
